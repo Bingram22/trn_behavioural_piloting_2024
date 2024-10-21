@@ -1,0 +1,99 @@
+15.0369 	DEBUG 	Fullscreen settings ignored as running in pilot mode.
+15.0380 	INFO 	Loaded monitor calibration from ['2023_12_05 11:09']
+15.5157 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, autoLog=True, backendConf=UNKNOWN, backgroundFit=<method-wrapper '__getattribute__' of attributeSetter object at 0x000001F56C6925B0>, backgroundImage=<method-wrapper '__getattribute__' of attributeSetter object at 0x000001F56C692550>, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x000001F56C6923A0>, gamma=None, gammaErrorPolicy='raise', infoMsg=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x000001F56CD99B50>, multiSample=False, name='window1', numSamples=2, pos=[0.0, 60.0], screen=0, size=array([1920, 1080]), stencilBits=0, stereo=False, title='PsychoPy', units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+15.5159 	EXP 	window1: mouseVisible = True
+15.5160 	EXP 	window1: backgroundImage = ''
+15.5160 	EXP 	window1: backgroundFit = 'none'
+15.5164 	EXP 	window1: mouseVisible = True
+15.5168 	EXP 	window1: mouseVisible = True
+15.5200 	EXP 	window1: mouseVisible = True
+15.5205 	EXP 	window1: mouseVisible = True
+15.5450 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+15.5475 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+15.5499 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+15.5530 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+15.5559 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+15.5574 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+15.5597 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+15.5628 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+15.5640 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+15.5653 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+15.5677 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+15.5700 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+15.5721 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+15.5742 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+15.5772 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+15.5798 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+15.5822 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+15.5835 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+15.5851 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+15.5882 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+15.5894 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+15.5900 	DEBUG 	Uploading Texture Font fontname to graphics card
+15.5915 	DEBUG 	Upload of Texture Font fontname complete
+15.5939 	EXP 	window1: mouseVisible = True
+15.5942 	EXP 	window1: mouseVisible = True
+15.5954 	EXP 	window1: mouseVisible = True
+15.5963 	EXP 	window1: mouseVisible = True
+15.6034 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+15.6068 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+15.6104 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+15.6111 	DEBUG 	Uploading Texture Font fontname to graphics card
+15.6130 	DEBUG 	Upload of Texture Font fontname complete
+15.6171 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+15.6171 	EXP 	window1: recordFrameIntervals = False
+15.7958 	EXP 	window1: recordFrameIntervals = True
+15.8518 	WARNING 	t of last frame was 22.39ms (=1/44)
+15.9185 	WARNING 	t of last frame was 21.26ms (=1/47)
+15.9686 	WARNING 	t of last frame was 21.93ms (=1/45)
+16.0018 	WARNING 	t of last frame was 22.38ms (=1/44)
+16.0349 	WARNING 	Multiple dropped frames have occurred - I'll stop bothering you about them!
+16.3465 	EXP 	Screen (0) actual frame rate measured at 59.88Hz
+16.3466 	EXP 	window1: recordFrameIntervals = False
+16.3466 	EXP 	window1: mouseVisible = False
+16.3470 	EXP 	window1: mouseVisible = True
+16.3471 	EXP 	window1: mouseVisible = True
+16.3477 	EXP 	window1: mouseVisible = True
+16.3481 	EXP 	window1: mouseVisible = True
+16.3546 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+16.3572 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+16.3603 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+16.3642 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+16.3679 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+16.3716 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+16.3734 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+16.3764 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+16.3797 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+16.3829 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+16.3832 	DEBUG 	Uploading Texture Font fontname to graphics card
+16.3843 	DEBUG 	Upload of Texture Font fontname complete
+16.3862 	EXP 	window1: mouseVisible = True
+16.3863 	EXP 	window1: mouseVisible = True
+16.3868 	EXP 	window1: mouseVisible = True
+16.3872 	EXP 	window1: mouseVisible = True
+16.4009 	WARNING 	launchHubServer: If using the iohub mouse or eyetracker devices, fullScr should be True.
+20.0120 	INFO 	keyboard.Keyboard is using iohub backend.
+20.0121 	INFO 	keyboard.Keyboard is using iohub backend.
+20.0122 	INFO 	keyboard.Keyboard is using iohub backend.
+20.0122 	INFO 	keyboard.Keyboard is using iohub backend.
+20.0123 	EXP 	vibrotactile_experiment_test: status = STARTED
+20.0134 	EXP 	window1: mouseVisible = True
+20.1559 	EXP 	Created text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='Viberator Test', units='height', win=Window(...), wrapWidth=1)
+20.1562 	EXP 	window1: mouseVisible = True
+20.1606 	EXP 	Created wait = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='wait', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='+', units='height', win=Window(...), wrapWidth=1)
+20.1608 	EXP 	window1: mouseVisible = True
+20.1617 	EXP 	Created text_3 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_3', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+20.1618 	EXP 	window1: mouseVisible = True
+20.1640 	EXP 	Created text_4 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_4', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='+', units='height', win=Window(...), wrapWidth=1)
+20.1641 	EXP 	window1: mouseVisible = True
+20.1660 	EXP 	Created stimulus_fixation = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='stimulus_fixation', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='+', units='height', win=Window(...), wrapWidth=1)
+20.1683 	EXP 	window1: mouseVisible = True
+20.1727 	EXP 	Created radial = RadialStim(__class__=type(...), anchor=('center', 'center'), autoDraw=False, autoLog=True, blendmode='avg', color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, interpolate=False, mask=None, maskParams=None, name='radial', opacity=1.0, ori=0.0, phase=array([0., 0.]), pos=array([0., 0.]), rgbPedestal=array([0., 0., 0.]), sf=1, size=array([0.8, 0.8]), tex='sqrXsqr', texRes=128, units='height', win=Window(...))
+20.1729 	EXP 	window1: mouseVisible = True
+20.1854 	EXP 	Created end_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='end_text', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='Run Complete!', units='height', win=Window(...), wrapWidth=1)
+0.1847 	INFO 	Keyboard events cleared
+0.1841 	EXP 	text: autoDraw = True
+2.2266 	EXP 	window1: mouseVisible = True
+2.2295 	DEBUG 	Saving data for vibrotactile_experiment_test ExperimentHandler
+2.2316 	INFO 	saved data to C:\Users\ingrambz\OneDrive - University of Birmingham\TRN Project\Experiments\TRN Divided Attention\data/01_vibrotactile_experiment_test_2024-10-21_15h09.51.719.psydat
+2.2336 	INFO 	saved data to 'C:\\Users\\ingrambz\\OneDrive - University of Birmingham\\TRN Project\\Experiments\\TRN Divided Attention\\data/01_vibrotactile_experiment_test_2024-10-21_15h09.51.719.csv'

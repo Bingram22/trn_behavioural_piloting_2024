@@ -68,13 +68,14 @@ flowScheduler.add(end_experimentRoutineEnd());
 flowScheduler.add(quitPsychoJS, 'Thank you for your patience.', true);
 
 // quit if user presses Cancel in dialog box:
-dialogCancelScheduler.add(quitPsychoJS, 'Thank you for your patience.', false);
+dialogCancelScheduler.add(quitPsychoJS, '', false);
 
 psychoJS.start({
   expName: expName,
   expInfo: expInfo,
   resources: [
     // resources:
+    {'name': 'trial_info.xlsx', 'path': 'trial_info.xlsx'},
   ]
 });
 
@@ -84,7 +85,7 @@ async function updateInfo() {
   currentLoop = psychoJS.experiment;  // right now there are no loops
   expInfo['date'] = util.MonotonicClock.getDateStr();  // add a simple timestamp
   expInfo['expName'] = expName;
-  expInfo['psychopyVersion'] = '2024.2.1post4';
+  expInfo['psychopyVersion'] = '2024.1.1';
   expInfo['OS'] = window.navigator.platform;
 
 
@@ -120,7 +121,7 @@ async function experimentInit() {
     text: 'Viberator Test',
     font: 'Arial',
     units: undefined, 
-    pos: [0, 0], draggable: false, height: 0.05,  wrapWidth: undefined, ori: 0.0,
+    pos: [0, 0], height: 0.05,  wrapWidth: undefined, ori: 0.0,
     languageStyle: 'LTR',
     color: new util.Color('white'),  opacity: undefined,
     depth: 0.0 
@@ -138,7 +139,7 @@ async function experimentInit() {
     text: '+',
     font: 'Arial',
     units: undefined, 
-    pos: [0, 0], draggable: false, height: 0.05,  wrapWidth: undefined, ori: 0.0,
+    pos: [0, 0], height: 0.05,  wrapWidth: undefined, ori: 0.0,
     languageStyle: 'LTR',
     color: new util.Color('white'),  opacity: undefined,
     depth: 0.0 
@@ -152,7 +153,7 @@ async function experimentInit() {
     text: '',
     font: 'Arial',
     units: undefined, 
-    pos: [0, 0], draggable: false, height: 0.05,  wrapWidth: undefined, ori: 0.0,
+    pos: [0, 0], height: 0.05,  wrapWidth: undefined, ori: 0.0,
     languageStyle: 'LTR',
     color: new util.Color('white'),  opacity: undefined,
     depth: 0.0 
@@ -166,7 +167,7 @@ async function experimentInit() {
     text: '+',
     font: 'Arial',
     units: undefined, 
-    pos: [0, 0], draggable: false, height: 0.05,  wrapWidth: undefined, ori: 0.0,
+    pos: [0, 0], height: 0.05,  wrapWidth: undefined, ori: 0.0,
     languageStyle: 'LTR',
     color: new util.Color('white'),  opacity: undefined,
     depth: 0.0 
@@ -180,7 +181,7 @@ async function experimentInit() {
     text: '+',
     font: 'Arial',
     units: undefined, 
-    pos: [0, 0], draggable: false, height: 0.05,  wrapWidth: undefined, ori: 0.0,
+    pos: [0, 0], height: 0.05,  wrapWidth: undefined, ori: 0.0,
     languageStyle: 'LTR',
     color: new util.Color('white'),  opacity: undefined,
     depth: 0.0 
@@ -198,7 +199,7 @@ async function experimentInit() {
     text: 'Run Complete!',
     font: 'Arial',
     units: undefined, 
-    pos: [0, 0], draggable: false, height: 0.05,  wrapWidth: undefined, ori: 0.0,
+    pos: [0, 0], height: 0.05,  wrapWidth: undefined, ori: 0.0,
     languageStyle: 'LTR',
     color: new util.Color('white'),  opacity: undefined,
     depth: 0.0 
@@ -222,10 +223,8 @@ function initialisationRoutineBegin(snapshot) {
     initialisationClock.reset(); // clock
     frameN = -1;
     continueRoutine = true; // until we're told otherwise
-    initialisationMaxDurationReached = false;
     // update component parameters for each repeat
     psychoJS.experiment.addData('initialisation.started', globalClock.getTime());
-    initialisationMaxDuration = null
     // keep track of which components have finished
     initialisationComponents = [];
     
@@ -299,13 +298,11 @@ function start_experimentRoutineBegin(snapshot) {
     start_experimentClock.reset(); // clock
     frameN = -1;
     continueRoutine = true; // until we're told otherwise
-    start_experimentMaxDurationReached = false;
     // update component parameters for each repeat
+    psychoJS.experiment.addData('start_experiment.started', globalClock.getTime());
     key_resp.keys = undefined;
     key_resp.rt = undefined;
     _key_resp_allKeys = [];
-    psychoJS.experiment.addData('start_experiment.started', globalClock.getTime());
-    start_experimentMaxDuration = null
     // keep track of which components have finished
     start_experimentComponents = [];
     start_experimentComponents.push(text);
@@ -336,7 +333,7 @@ function start_experimentRoutineEachFrame() {
       text.setAutoDraw(true);
     }
     
-    frameRemains = 0.0 + 2 - psychoJS.window.monitorFramePeriod * 0.75;// most of one frame period left
+    frameRemains = 0.0 + 2 - psychoJS.window.monitorFramePeriod * 0.75;  // most of one frame period left
     if (text.status === PsychoJS.Status.STARTED && t >= frameRemains) {
       text.setAutoDraw(false);
     }
@@ -433,10 +430,8 @@ function triggerRoutineBegin(snapshot) {
     triggerClock.reset(); // clock
     frameN = -1;
     continueRoutine = true; // until we're told otherwise
-    triggerMaxDurationReached = false;
     // update component parameters for each repeat
     psychoJS.experiment.addData('trigger.started', globalClock.getTime());
-    triggerMaxDuration = null
     // keep track of which components have finished
     triggerComponents = [];
     
@@ -583,10 +578,8 @@ function inter_stimulus_intevralRoutineBegin(snapshot) {
     frameN = -1;
     continueRoutine = true; // until we're told otherwise
     routineTimer.add(4.000000);
-    inter_stimulus_intevralMaxDurationReached = false;
     // update component parameters for each repeat
     psychoJS.experiment.addData('inter_stimulus_intevral.started', globalClock.getTime());
-    inter_stimulus_intevralMaxDuration = 4
     // keep track of which components have finished
     inter_stimulus_intevralComponents = [];
     inter_stimulus_intevralComponents.push(wait);
@@ -607,8 +600,7 @@ function inter_stimulus_intevralRoutineEachFrame() {
     frameN = frameN + 1;// number of completed frames (so 0 is the first frame)
     // update/draw components on each frame
     // is it time to end the Routine? (based on local clock)
-    if (t > inter_stimulus_intevralMaxDuration) {
-        inter_stimulus_intevralMaxDurationReached = true
+    if (t > 4) {
         continueRoutine = false
     }
     
@@ -621,7 +613,7 @@ function inter_stimulus_intevralRoutineEachFrame() {
       wait.setAutoDraw(true);
     }
     
-    frameRemains = 0.0 + 4 - psychoJS.window.monitorFramePeriod * 0.75;// most of one frame period left
+    frameRemains = 0.0 + 4 - psychoJS.window.monitorFramePeriod * 0.75;  // most of one frame period left
     if (wait.status === PsychoJS.Status.STARTED && t >= frameRemains) {
       wait.setAutoDraw(false);
     }
@@ -661,11 +653,6 @@ function inter_stimulus_intevralRoutineEnd(snapshot) {
       }
     });
     psychoJS.experiment.addData('inter_stimulus_intevral.stopped', globalClock.getTime());
-    if (inter_stimulus_intevralMaxDurationReached) {
-        routineTimer.add(inter_stimulus_intevralMaxDuration);
-    } else {
-        routineTimer.add(-4.000000);
-    }
     // Routines running outside a loop should always advance the datafile row
     if (currentLoop === psychoJS.experiment) {
       psychoJS.experiment.nextEntry(snapshot);
@@ -684,11 +671,9 @@ function cueRoutineBegin(snapshot) {
     frameN = -1;
     continueRoutine = true; // until we're told otherwise
     routineTimer.add(0.500000);
-    cueMaxDurationReached = false;
     // update component parameters for each repeat
-    text_3.setText(cue_text);
     psychoJS.experiment.addData('cue.started', globalClock.getTime());
-    cueMaxDuration = null
+    text_3.setText(cue_text);
     // keep track of which components have finished
     cueComponents = [];
     cueComponents.push(text_3);
@@ -718,7 +703,7 @@ function cueRoutineEachFrame() {
       text_3.setAutoDraw(true);
     }
     
-    frameRemains = 0.0 + 0.5 - psychoJS.window.monitorFramePeriod * 0.75;// most of one frame period left
+    frameRemains = 0.0 + 0.5 - psychoJS.window.monitorFramePeriod * 0.75;  // most of one frame period left
     if (text_3.status === PsychoJS.Status.STARTED && t >= frameRemains) {
       text_3.setAutoDraw(false);
     }
@@ -758,11 +743,6 @@ function cueRoutineEnd(snapshot) {
       }
     });
     psychoJS.experiment.addData('cue.stopped', globalClock.getTime());
-    if (cueMaxDurationReached) {
-        routineTimer.add(cueMaxDuration);
-    } else {
-        routineTimer.add(-0.500000);
-    }
     // Routines running outside a loop should always advance the datafile row
     if (currentLoop === psychoJS.experiment) {
       psychoJS.experiment.nextEntry(snapshot);
@@ -781,10 +761,8 @@ function cue_to_targetRoutineBegin(snapshot) {
     frameN = -1;
     continueRoutine = true; // until we're told otherwise
     routineTimer.add(1.500000);
-    cue_to_targetMaxDurationReached = false;
     // update component parameters for each repeat
     psychoJS.experiment.addData('cue_to_target.started', globalClock.getTime());
-    cue_to_targetMaxDuration = null
     // keep track of which components have finished
     cue_to_targetComponents = [];
     cue_to_targetComponents.push(text_4);
@@ -814,7 +792,7 @@ function cue_to_targetRoutineEachFrame() {
       text_4.setAutoDraw(true);
     }
     
-    frameRemains = 0.0 + 1.5 - psychoJS.window.monitorFramePeriod * 0.75;// most of one frame period left
+    frameRemains = 0.0 + 1.5 - psychoJS.window.monitorFramePeriod * 0.75;  // most of one frame period left
     if (text_4.status === PsychoJS.Status.STARTED && t >= frameRemains) {
       text_4.setAutoDraw(false);
     }
@@ -854,11 +832,6 @@ function cue_to_targetRoutineEnd(snapshot) {
       }
     });
     psychoJS.experiment.addData('cue_to_target.stopped', globalClock.getTime());
-    if (cue_to_targetMaxDurationReached) {
-        routineTimer.add(cue_to_targetMaxDuration);
-    } else {
-        routineTimer.add(-1.500000);
-    }
     // Routines running outside a loop should always advance the datafile row
     if (currentLoop === psychoJS.experiment) {
       psychoJS.experiment.nextEntry(snapshot);
@@ -876,11 +849,9 @@ function checkerboardRoutineBegin(snapshot) {
     checkerboardClock.reset(); // clock
     frameN = -1;
     continueRoutine = true; // until we're told otherwise
-    routineTimer.add(0.500000);
-    checkerboardMaxDurationReached = false;
+    routineTimer.add(0.250000);
     // update component parameters for each repeat
     psychoJS.experiment.addData('checkerboard.started', globalClock.getTime());
-    checkerboardMaxDuration = 0.5
     // keep track of which components have finished
     checkerboardComponents = [];
     checkerboardComponents.push(stimulus_fixation);
@@ -901,8 +872,7 @@ function checkerboardRoutineEachFrame() {
     frameN = frameN + 1;// number of completed frames (so 0 is the first frame)
     // update/draw components on each frame
     // is it time to end the Routine? (based on local clock)
-    if (t > checkerboardMaxDuration) {
-        checkerboardMaxDurationReached = true
+    if (t > 0.25) {
         continueRoutine = false
     }
     
@@ -915,7 +885,7 @@ function checkerboardRoutineEachFrame() {
       stimulus_fixation.setAutoDraw(true);
     }
     
-    frameRemains = 0.0 + 2 - psychoJS.window.monitorFramePeriod * 0.75;// most of one frame period left
+    frameRemains = 0.0 + 2 - psychoJS.window.monitorFramePeriod * 0.75;  // most of one frame period left
     if (stimulus_fixation.status === PsychoJS.Status.STARTED && t >= frameRemains) {
       stimulus_fixation.setAutoDraw(false);
     }
@@ -955,11 +925,6 @@ function checkerboardRoutineEnd(snapshot) {
       }
     });
     psychoJS.experiment.addData('checkerboard.stopped', globalClock.getTime());
-    if (checkerboardMaxDurationReached) {
-        routineTimer.add(checkerboardMaxDuration);
-    } else {
-        routineTimer.add(-0.500000);
-    }
     // Routines running outside a loop should always advance the datafile row
     if (currentLoop === psychoJS.experiment) {
       psychoJS.experiment.nextEntry(snapshot);
@@ -977,13 +942,11 @@ function response_periodRoutineBegin(snapshot) {
     response_periodClock.reset(); // clock
     frameN = -1;
     continueRoutine = true; // until we're told otherwise
-    response_periodMaxDurationReached = false;
     // update component parameters for each repeat
+    psychoJS.experiment.addData('response_period.started', globalClock.getTime());
     response.keys = undefined;
     response.rt = undefined;
     _response_allKeys = [];
-    psychoJS.experiment.addData('response_period.started', globalClock.getTime());
-    response_periodMaxDuration = 1.5
     // keep track of which components have finished
     response_periodComponents = [];
     response_periodComponents.push(response);
@@ -1004,8 +967,7 @@ function response_periodRoutineEachFrame() {
     frameN = frameN + 1;// number of completed frames (so 0 is the first frame)
     // update/draw components on each frame
     // is it time to end the Routine? (based on local clock)
-    if (t > response_periodMaxDuration) {
-        response_periodMaxDurationReached = true
+    if (t > 1.5) {
         continueRoutine = false
     }
     
@@ -1016,7 +978,7 @@ function response_periodRoutineEachFrame() {
     psychoJS.window.callOnFlip(function() { response.clearEvents(); });
   }
   
-  frameRemains =  + 1.5 - psychoJS.window.monitorFramePeriod * 0.75;// most of one frame period left
+  frameRemains =  + 1.5 - psychoJS.window.monitorFramePeriod * 0.75;  // most of one frame period left
   if (response.status === PsychoJS.Status.STARTED && t >= frameRemains) {
     response.status = PsychoJS.Status.FINISHED;
       }
@@ -1113,13 +1075,11 @@ return async function () {
   end_experimentClock.reset(); // clock
   frameN = -1;
   continueRoutine = true; // until we're told otherwise
-  end_experimentMaxDurationReached = false;
   // update component parameters for each repeat
+  psychoJS.experiment.addData('end_experiment.started', globalClock.getTime());
   end_button.keys = undefined;
   end_button.rt = undefined;
   _end_button_allKeys = [];
-  psychoJS.experiment.addData('end_experiment.started', globalClock.getTime());
-  end_experimentMaxDuration = null
   // keep track of which components have finished
   end_experimentComponents = [];
   end_experimentComponents.push(end_text);
