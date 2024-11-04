@@ -8,7 +8,7 @@
     <Param val="u'data/%s_%s_%s' % (expInfo['participant'], expName, expInfo['date'])" valType="code" updates="None" name="Data filename"/>
     <Param val="True" valType="bool" updates="None" name="Enable Escape"/>
     <Param val="Thank you for your patience." valType="str" updates="None" name="End Message"/>
-    <Param val="{'participant': '01', 'run': '01', 'trial_duration': '2', 'standard_vibration_freq': '20', 'target_vibration_diff': '10', 'standard_checkerboard_freq': '8', 'target_checkerboard_diff': '4'}" valType="code" updates="None" name="Experiment info"/>
+    <Param val="{'participant': '01', 'run': '01', 'trial_duration': '2', 'standard_vibration_freq': '20', 'target_vibration_diff': '10', 'standard_checkerboard_freq': '10', 'high_checkerboard_freq': '20'}" valType="code" updates="None" name="Experiment info"/>
     <Param val="True" valType="bool" updates="None" name="Force stereo"/>
     <Param val="True" valType="bool" updates="None" name="Full-screen window"/>
     <Param val="" valType="str" updates="None" name="HTML path"/>
@@ -26,7 +26,7 @@
     <Param val="False" valType="bool" updates="None" name="Show mouse"/>
     <Param val="height" valType="str" updates="None" name="Units"/>
     <Param val="" valType="str" updates="None" name="Use version"/>
-    <Param val="[1920, 1080]" valType="list" updates="None" name="Window size (pixels)"/>
+    <Param val="[1280, 800]" valType="list" updates="None" name="Window size (pixels)"/>
     <Param val="none" valType="str" updates="None" name="backgroundFit"/>
     <Param val="" valType="str" updates="None" name="backgroundImg"/>
     <Param val="avg" valType="str" updates="None" name="blendMode"/>
@@ -70,7 +70,7 @@
     <Param val="1000" valType="num" updates="None" name="plPupilRemoteTimeoutMs"/>
     <Param val="False" valType="bool" updates="None" name="plPupillometryOnly"/>
     <Param val="psychopy_iohub_surface" valType="str" updates="None" name="plSurfaceName"/>
-    <Param val="1" valType="code" updates="None" name="runMode"/>
+    <Param val="0" valType="code" updates="None" name="runMode"/>
     <Param val="False" valType="bool" updates="None" name="rush"/>
     <Param val="time" valType="str" updates="None" name="sortColumns"/>
     <Param val="" valType="str" updates="None" name="tbLicenseFile"/>
@@ -172,7 +172,7 @@
         <Param val="white" valType="color" updates="constant" name="color"/>
         <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
         <Param val="1" valType="num" updates="constant" name="contrast"/>
-        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="True" valType="bool" updates="None" name="disabled"/>
         <Param val="False" valType="code" updates="constant" name="draggable"/>
         <Param val="" valType="code" updates="None" name="durationEstim"/>
         <Param val="None" valType="str" updates="constant" name="flip"/>
@@ -195,53 +195,35 @@
         <Param val="" valType="code" updates="None" name="validator"/>
         <Param val="" valType="num" updates="constant" name="wrapWidth"/>
       </TextComponent>
-      <RadialStimComponent name="radial" plugin="None">
-        <Param val="10" valType="code" updates="constant" name="angularCycles"/>
-        <Param val="0" valType="code" updates="constant" name="angularPhase"/>
+      <GratingComponent name="grating" plugin="None">
+        <Param val="center" valType="str" updates="constant" name="anchor"/>
+        <Param val="avg" valType="str" updates="constant" name="blendmode"/>
         <Param val="$[1,1,1]" valType="color" updates="constant" name="color"/>
         <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
         <Param val="1.0" valType="num" updates="constant" name="contrast"/>
         <Param val="False" valType="bool" updates="None" name="disabled"/>
         <Param val="" valType="code" updates="None" name="durationEstim"/>
-        <Param val="Linear" valType="str" updates="constant" name="interpolate"/>
-        <Param val="" valType="file" updates="constant" name="mask"/>
-        <Param val="radial" valType="code" updates="None" name="name"/>
-        <Param val="opacity_values[checkerboard_frequency_direction][frameN % total_frames]" valType="num" updates="set every frame" name="opacity"/>
-        <Param val="0" valType="num" updates="constant" name="ori"/>
-        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
-        <Param val="10" valType="code" updates="constant" name="radialCycles"/>
-        <Param val="0" valType="code" updates="constant" name="radialPhase"/>
+        <Param val="linear" valType="str" updates="constant" name="interpolate"/>
+        <Param val="gauss" valType="file" updates="constant" name="mask"/>
+        <Param val="grating" valType="code" updates="None" name="name"/>
+        <Param val="1.0" valType="num" updates="set every repeat" name="opacity"/>
+        <Param val="visual_stim_orientation" valType="num" updates="set every repeat" name="ori"/>
+        <Param val="10" valType="num" updates="constant" name="phase"/>
+        <Param val="(-0.5, 0)" valType="list" updates="set every repeat" name="pos"/>
         <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
-        <Param val="(0.8, 0.8)" valType="list" updates="constant" name="size"/>
+        <Param val="10" valType="num" updates="constant" name="sf"/>
+        <Param val="(0.5, 0.5)" valType="list" updates="constant" name="size"/>
         <Param val="" valType="code" updates="None" name="startEstim"/>
         <Param val="time (s)" valType="str" updates="None" name="startType"/>
         <Param val="0.0" valType="code" updates="None" name="startVal"/>
         <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
         <Param val="0.250" valType="code" updates="constant" name="stopVal"/>
         <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
-        <Param val="sqrXsqr" valType="file" updates="constant" name="tex"/>
-        <Param val="128" valType="code" updates="constant" name="texture resolution"/>
+        <Param val="sin" valType="file" updates="constant" name="tex"/>
+        <Param val="128" valType="num" updates="constant" name="texture resolution"/>
         <Param val="from exp settings" valType="str" updates="None" name="units"/>
         <Param val="" valType="code" updates="None" name="validator"/>
-        <Param val="(0, 180)" valType="code" updates="constant" name="visibleWedge"/>
-      </RadialStimComponent>
-      <CodeComponent name="vibration" plugin="None">
-        <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
-        <Param val="import * as np from 'numpy';&amp;#10;import * as daq from 'PyDAQmx';&amp;#10;import {core, visual} from 'psychopy';&amp;#10;import * as time from 'time';&amp;#10;device = &quot;Dev1&quot;;&amp;#10;channel = &quot;ao0&quot;;&amp;#10;sample_rate = 1000;&amp;#10;duration = 5;&amp;#10;t = np.linspace(0, duration, Number.parseInt((sample_rate * duration)), {&quot;endpoint&quot;: false});&amp;#10;frequency = 10;&amp;#10;amplitude = 1.0;&amp;#10;sinusoid = (amplitude * np.sin((((2 * np.pi) * frequency) * t)));&amp;#10;task = new daq.Task();&amp;#10;new task.CreateAOVoltageChan(`${device}/${channel}`, &quot;&quot;, (- 10.0), 10.0, daq.DAQmx_Val_Volts, null);&amp;#10;new task.CfgSampClkTiming(&quot;&quot;, sample_rate, daq.DAQmx_Val_Rising, daq.DAQmx_Val_FiniteSamps, sinusoid.length);&amp;#10;new task.WriteAnalogF64(sinusoid.length, false, 10.0, daq.DAQmx_Val_GroupByChannel, sinusoid, null, null);&amp;#10;" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
-        <Param val="" valType="extendedCode" updates="constant" name="Begin Experiment"/>
-        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
-        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
-        <Param val="task.StartTask()" valType="extendedCode" updates="constant" name="Begin Routine"/>
-        <Param val="Py" valType="str" updates="None" name="Code Type"/>
-        <Param val="" valType="extendedCode" updates="constant" name="Each Frame"/>
-        <Param val="" valType="extendedCode" updates="constant" name="Each JS Frame"/>
-        <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
-        <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
-        <Param val="" valType="extendedCode" updates="constant" name="End JS Routine"/>
-        <Param val="task.StopTask()&amp;#10;task.ClearTask()" valType="extendedCode" updates="constant" name="End Routine"/>
-        <Param val="True" valType="bool" updates="None" name="disabled"/>
-        <Param val="vibration" valType="code" updates="None" name="name"/>
-      </CodeComponent>
+      </GratingComponent>
     </Routine>
     <Routine name="trigger">
       <RoutineSettingsComponent name="trigger" plugin="None">
@@ -315,7 +297,7 @@
         <Param val="time (s)" valType="str" updates="None" name="startType"/>
         <Param val="0.0" valType="code" updates="None" name="startVal"/>
         <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
-        <Param val="0.5" valType="code" updates="constant" name="stopVal"/>
+        <Param val="0.250" valType="code" updates="constant" name="stopVal"/>
         <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
         <Param val="$cue_text" valType="str" updates="set every repeat" name="text"/>
         <Param val="from exp settings" valType="str" updates="None" name="units"/>
@@ -375,21 +357,21 @@
         <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
         <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
         <Param val="" valType="str" updates="constant" name="desc"/>
-        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="True" valType="bool" updates="None" name="disabled"/>
         <Param val="" valType="code" updates="None" name="durationEstim"/>
         <Param val="True" valType="code" updates="None" name="forceNonSlip"/>
         <Param val="inter_stimulus_intevral" valType="code" updates="None" name="name"/>
         <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
         <Param val="" valType="code" updates="constant" name="skipIf"/>
         <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
-        <Param val="4" valType="code" updates="constant" name="stopVal"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
         <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
       </RoutineSettingsComponent>
       <TextComponent name="wait" plugin="None">
         <Param val="white" valType="color" updates="constant" name="color"/>
         <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
         <Param val="1" valType="num" updates="constant" name="contrast"/>
-        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="True" valType="bool" updates="None" name="disabled"/>
         <Param val="False" valType="code" updates="constant" name="draggable"/>
         <Param val="" valType="code" updates="None" name="durationEstim"/>
         <Param val="None" valType="str" updates="constant" name="flip"/>
@@ -447,27 +429,10 @@
         <Param val="" valType="code" updates="constant" name="stopVal"/>
         <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
       </RoutineSettingsComponent>
-      <CodeComponent name="initialisation_vibration" plugin="None">
-        <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
-        <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
-        <Param val="import numpy as np&amp;#10;import PyDAQmx as daq&amp;#10;from psychopy import core, visual&amp;#10;import time&amp;#10;import matplotlib.pyplot as plt&amp;#10;&amp;#10;# DAQ configuration&amp;#10;device = &quot;Dev1&quot;  # Change this to match your device name&amp;#10;channel = &quot;ao0&quot;  # Analog output channel&amp;#10;sample_rate = 100000  # Hz&amp;#10;duration = float(expInfo['trial_duration'])  #seeconds&amp;#10;&amp;#10;# Generate time array&amp;#10;t = np.linspace(0, duration, int(sample_rate * duration), endpoint=False)&amp;#10;&amp;#10;# Frequency and amplitude&amp;#10;start_frequency = 20  # Hz&amp;#10;amplitude = 1.0  # Volts&amp;#10;&amp;#10;# Split the time array into two halves&amp;#10;midpoint = len(t) // 2&amp;#10;t1 = t[:midpoint]  # First half&amp;#10;t2 = t[midpoint:]  # Second half&amp;#10;&amp;#10;# Generate the sine waves for increasing frequency (20 Hz to 30 Hz)&amp;#10;frequency_1_increase = start_frequency  # Start at 20 Hz&amp;#10;frequency_2_increase = start_frequency + float(expInfo['target_vibration_diff'])   # End at 30 Hz&amp;#10;sinusoid_increase_1 = amplitude * np.sin(2 * np.pi * frequency_1_increase * t1)&amp;#10;sinusoid_increase_2 = amplitude * np.sin(2 * np.pi * frequency_2_increase * t2)&amp;#10;sinusoid_increase = np.concatenate((sinusoid_increase_1, sinusoid_increase_2))&amp;#10;&amp;#10;# Generate the sine waves for decreasing frequency (20 Hz to 10 Hz)&amp;#10;frequency_1_decrease = start_frequency  # Start at 20 Hz&amp;#10;frequency_2_decrease = start_frequency - float(expInfo['target_vibration_diff'])   # End at 10 Hz&amp;#10;sinusoid_decrease_1 = amplitude * np.sin(2 * np.pi * frequency_1_decrease * t1)&amp;#10;sinusoid_decrease_2 = amplitude * np.sin(2 * np.pi * frequency_2_decrease * t2)&amp;#10;sinusoid_decrease = np.concatenate((sinusoid_decrease_1, sinusoid_decrease_2))&amp;#10;&amp;#10;# Store in Dictionary&amp;#10;sinusoids = {'increase' : sinusoid_increase,&amp;#10;             'decrease' : sinusoid_decrease}&amp;#10;             &amp;#10;&amp;#10;&amp;#10;&amp;#10;" valType="extendedCode" updates="constant" name="Begin Experiment"/>
-        <Param val="/* Syntax Error: Fix Python code */" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
-        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
-        <Param val="" valType="extendedCode" updates="constant" name="Begin Routine"/>
-        <Param val="Py" valType="str" updates="None" name="Code Type"/>
-        <Param val="" valType="extendedCode" updates="constant" name="Each Frame"/>
-        <Param val="" valType="extendedCode" updates="constant" name="Each JS Frame"/>
-        <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
-        <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
-        <Param val="" valType="extendedCode" updates="constant" name="End JS Routine"/>
-        <Param val="" valType="extendedCode" updates="constant" name="End Routine"/>
-        <Param val="True" valType="bool" updates="None" name="disabled"/>
-        <Param val="initialisation_vibration" valType="code" updates="None" name="name"/>
-      </CodeComponent>
       <CodeComponent name="initialisation_flicker" plugin="None">
         <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
         <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
-        <Param val="import numpy as np&amp;#10;&amp;#10;# Experiment parameters&amp;#10;standard_freq = float(expInfo['standard_checkerboard_freq'])  # 8 Hz standard checkerboard frequency&amp;#10;duration = float(expInfo['trial_duration'])  # seconds&amp;#10;flicker_diff = float(expInfo['target_checkerboard_diff'])  # difference for increasing/decreasing frequency&amp;#10;&amp;#10;total_frames = int(60 * duration)  # assuming 60 Hz refresh rate&amp;#10;midpoint = total_frames // 2  # midpoint to split the sine wave into two halves&amp;#10;&amp;#10;# Generate time arrays for each half&amp;#10;t1 = np.arange(midpoint) / 60  # First half&amp;#10;t2 = np.arange(midpoint, total_frames) / 60  # Second half&amp;#10;&amp;#10;# First half: constant 8 Hz sine wave&amp;#10;standard_opacity_values = np.sin(2 * np.pi * standard_freq * t1)&amp;#10;&amp;#10;# Second half: increasing and decreasing frequency sine waves&amp;#10;# Increasing frequency (8 Hz to 8 Hz + flicker_diff)&amp;#10;increasing_freq = np.sin(2 * np.pi * (standard_freq + flicker_diff) * t2)&amp;#10;&amp;#10;# Decreasing frequency (8 Hz to 8 Hz - flicker_diff)&amp;#10;decreasing_freq = np.sin(2 * np.pi * (standard_freq - flicker_diff) * t2)&amp;#10;&amp;#10;# Concatenate the two halves for increasing and decreasing versions&amp;#10;opacity_values_increase = np.concatenate((standard_opacity_values, increasing_freq))&amp;#10;opacity_values_decrease = np.concatenate((standard_opacity_values, decreasing_freq))&amp;#10;&amp;#10;# Store in a dictionary for later use&amp;#10;opacity_values = {&amp;#10;    'increase': opacity_values_increase,&amp;#10;    'decrease': opacity_values_decrease&amp;#10;}" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="import numpy as np&amp;#10;&amp;#10;# Experiment parameters&amp;#10;standard_freq = float(expInfo['standard_checkerboard_freq'])  # 8 Hz standard checkerboard frequency&amp;#10;high_freq = float(expInfo['high_checkerboard_freq']) &amp;#10;duration = float(expInfo['trial_duration'])  # seconds&amp;#10;&amp;#10;&amp;#10;total_frames = int(60 * duration)  # assuming 60 Hz refresh rate&amp;#10;midpoint = total_frames // 2  # midpoint to split the sine wave into two halves&amp;#10;&amp;#10;# Generate time arrays for each half&amp;#10;t1 = np.arange(midpoint) / 60  # First half&amp;#10;t2 = np.arange(midpoint, total_frames) / 60  # Second half&amp;#10;&amp;#10;# First half: constant 8 Hz sine wave&amp;#10;standard_opacity_values = np.sin(2 * np.pi * standard_freq * t1)&amp;#10;&amp;#10;# Second half: increasing and decreasing frequency sine waves&amp;#10;# Increasing frequency (8 Hz to 8 Hz + flicker_diff)&amp;#10;high_freq_values = np.sin(2 * np.pi * (high_freq) * t2)&amp;#10;&amp;#10;&amp;#10;# Concatenate the two halves for increasing and decreasing versions&amp;#10;opacity_values_high_freq_first = np.concatenate((high_freq_values, standard_opacity_values))&amp;#10;opacity_values_high_freq_second = np.concatenate((standard_opacity_values, high_freq_values))&amp;#10;opacity_values_high_freq_no_change = np.concatenate((high_freq_values,  high_freq_values))&amp;#10;opacity_values_standard_freq_no_change = np.concatenate((standard_opacity_values,  standard_opacity_values))&amp;#10;&amp;#10;# Store in a dictionary for later use&amp;#10;opacity_values = {&amp;#10;    'first': opacity_values_high_freq_first,&amp;#10;    'second': opacity_values_high_freq_second,&amp;#10;    'high_freq':opacity_values_high_freq_no_change,&amp;#10;    'standard_freq':opacity_values_standard_freq_no_change&amp;#10;}" valType="extendedCode" updates="constant" name="Begin Experiment"/>
         <Param val="/* Syntax Error: Fix Python code */" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
         <Param val="" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
         <Param val="" valType="extendedCode" updates="constant" name="Begin Routine"/>
@@ -496,11 +461,11 @@
         <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
         <Param val="" valType="code" updates="constant" name="skipIf"/>
         <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
-        <Param val="1.5" valType="code" updates="constant" name="stopVal"/>
+        <Param val="0.8" valType="code" updates="constant" name="stopVal"/>
         <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
       </RoutineSettingsComponent>
       <KeyboardComponent name="response" plugin="None">
-        <Param val="'up', 'down'" valType="list" updates="constant" name="allowedKeys"/>
+        <Param val="'left', 'right'" valType="list" updates="constant" name="allowedKeys"/>
         <Param val="$correct_answer" valType="str" updates="constant" name="correctAns"/>
         <Param val="" valType="str" updates="None" name="deviceLabel"/>
         <Param val="False" valType="bool" updates="None" name="disabled"/>
@@ -512,13 +477,39 @@
         <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
         <Param val="" valType="code" updates="None" name="startEstim"/>
         <Param val="time (s)" valType="str" updates="None" name="startType"/>
-        <Param val="" valType="code" updates="None" name="startVal"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
         <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
-        <Param val="1.5" valType="code" updates="constant" name="stopVal"/>
+        <Param val="0.8" valType="code" updates="constant" name="stopVal"/>
         <Param val="last key" valType="str" updates="constant" name="store"/>
         <Param val="True" valType="bool" updates="constant" name="storeCorrect"/>
         <Param val="True" valType="bool" updates="constant" name="syncScreenRefresh"/>
       </KeyboardComponent>
+      <TextComponent name="text_2" plugin="None">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Open Sans" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="text_2" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="0.8" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="+" valType="str" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
     </Routine>
     <Routine name="end_experiment">
       <RoutineSettingsComponent name="end_experiment" plugin="None">
@@ -657,16 +648,15 @@
     <Routine name="trigger"/>
     <LoopInitiator loopType="TrialHandler" name="trials">
       <Param name="Selected rows" updates="None" val="" valType="str"/>
-      <Param name="conditions" updates="None" val="[{'trial_number': 1, 'cue_text': 'Visual', 'vibration_frequency_direction': 'increase', 'checkerboard_frequency_direction': 'decrease', 'inter_stimulus_interval': None, 'cue_to_target_interval': None, 'correct_answer': 'down'}, {'trial_number': 2, 'cue_text': 'Visual', 'vibration_frequency_direction': 'decrease', 'checkerboard_frequency_direction': 'increase', 'inter_stimulus_interval': None, 'cue_to_target_interval': None, 'correct_answer': 'up'}, {'trial_number': 3, 'cue_text': 'Vibration', 'vibration_frequency_direction': 'increase', 'checkerboard_frequency_direction': 'decrease', 'inter_stimulus_interval': None, 'cue_to_target_interval': None, 'correct_answer': 'up'}, {'trial_number': 4, 'cue_text': 'Vibration', 'vibration_frequency_direction': 'decrease', 'checkerboard_frequency_direction': 'increase', 'inter_stimulus_interval': None, 'cue_to_target_interval': None, 'correct_answer': 'down'}, {'trial_number': 5, 'cue_text': 'Visual', 'vibration_frequency_direction': 'increase', 'checkerboard_frequency_direction': 'decrease', 'inter_stimulus_interval': None, 'cue_to_target_interval': None, 'correct_answer': 'down'}, {'trial_number': 6, 'cue_text': 'Visual', 'vibration_frequency_direction': 'decrease', 'checkerboard_frequency_direction': 'increase', 'inter_stimulus_interval': None, 'cue_to_target_interval': None, 'correct_answer': 'up'}, {'trial_number': 7, 'cue_text': 'Vibration', 'vibration_frequency_direction': 'increase', 'checkerboard_frequency_direction': 'decrease', 'inter_stimulus_interval': None, 'cue_to_target_interval': None, 'correct_answer': 'up'}, {'trial_number': 8, 'cue_text': 'Vibration', 'vibration_frequency_direction': 'decrease', 'checkerboard_frequency_direction': 'increase', 'inter_stimulus_interval': None, 'cue_to_target_interval': None, 'correct_answer': 'down'}, {'trial_number': 9, 'cue_text': 'Visual', 'vibration_frequency_direction': 'increase', 'checkerboard_frequency_direction': 'decrease', 'inter_stimulus_interval': None, 'cue_to_target_interval': None, 'correct_answer': 'down'}, {'trial_number': 10, 'cue_text': 'Visual', 'vibration_frequency_direction': 'decrease', 'checkerboard_frequency_direction': 'increase', 'inter_stimulus_interval': None, 'cue_to_target_interval': None, 'correct_answer': 'up'}, {'trial_number': 11, 'cue_text': 'Vibration', 'vibration_frequency_direction': 'increase', 'checkerboard_frequency_direction': 'decrease', 'inter_stimulus_interval': None, 'cue_to_target_interval': None, 'correct_answer': 'up'}, {'trial_number': 12, 'cue_text': 'Vibration', 'vibration_frequency_direction': 'decrease', 'checkerboard_frequency_direction': 'increase', 'inter_stimulus_interval': None, 'cue_to_target_interval': None, 'correct_answer': 'down'}, {'trial_number': 13, 'cue_text': 'Visual', 'vibration_frequency_direction': 'increase', 'checkerboard_frequency_direction': 'decrease', 'inter_stimulus_interval': None, 'cue_to_target_interval': None, 'correct_answer': 'down'}, {'trial_number': 14, 'cue_text': 'Visual', 'vibration_frequency_direction': 'decrease', 'checkerboard_frequency_direction': 'increase', 'inter_stimulus_interval': None, 'cue_to_target_interval': None, 'correct_answer': 'up'}, {'trial_number': 15, 'cue_text': 'Vibration', 'vibration_frequency_direction': 'increase', 'checkerboard_frequency_direction': 'decrease', 'inter_stimulus_interval': None, 'cue_to_target_interval': None, 'correct_answer': 'up'}, {'trial_number': 16, 'cue_text': 'Vibration', 'vibration_frequency_direction': 'decrease', 'checkerboard_frequency_direction': 'increase', 'inter_stimulus_interval': None, 'cue_to_target_interval': None, 'correct_answer': 'down'}, {'trial_number': 17, 'cue_text': 'Visual', 'vibration_frequency_direction': 'increase', 'checkerboard_frequency_direction': 'decrease', 'inter_stimulus_interval': None, 'cue_to_target_interval': None, 'correct_answer': 'down'}, {'trial_number': 18, 'cue_text': 'Visual', 'vibration_frequency_direction': 'decrease', 'checkerboard_frequency_direction': 'increase', 'inter_stimulus_interval': None, 'cue_to_target_interval': None, 'correct_answer': 'up'}, {'trial_number': 19, 'cue_text': 'Vibration', 'vibration_frequency_direction': 'increase', 'checkerboard_frequency_direction': 'decrease', 'inter_stimulus_interval': None, 'cue_to_target_interval': None, 'correct_answer': 'up'}, {'trial_number': 20, 'cue_text': 'Vibration', 'vibration_frequency_direction': 'decrease', 'checkerboard_frequency_direction': 'increase', 'inter_stimulus_interval': None, 'cue_to_target_interval': None, 'correct_answer': 'down'}, {'trial_number': None, 'cue_text': None, 'vibration_frequency_direction': None, 'checkerboard_frequency_direction': None, 'inter_stimulus_interval': None, 'cue_to_target_interval': None, 'correct_answer': None}]" valType="str"/>
-      <Param name="conditionsFile" updates="None" val="trial_info.xlsx" valType="file"/>
+      <Param name="conditions" updates="None" val="[OrderedDict([('cue_text', 'Visual Only'), ('visual_stim_orientation', -5), ('correct_answer', 'left')]), OrderedDict([('cue_text', 'Visual Only'), ('visual_stim_orientation', 5), ('correct_answer', 'right')])]" valType="str"/>
+      <Param name="conditionsFile" updates="None" val="visual_only.csv" valType="file"/>
       <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
       <Param name="isTrials" updates="None" val="True" valType="bool"/>
       <Param name="loopType" updates="None" val="random" valType="str"/>
-      <Param name="nReps" updates="None" val="1" valType="num"/>
+      <Param name="nReps" updates="None" val="5" valType="num"/>
       <Param name="name" updates="None" val="trials" valType="code"/>
       <Param name="random seed" updates="None" val="" valType="code"/>
     </LoopInitiator>
-    <Routine name="inter_stimulus_intevral"/>
     <Routine name="cue"/>
     <Routine name="cue_to_target"/>
     <Routine name="checkerboard"/>

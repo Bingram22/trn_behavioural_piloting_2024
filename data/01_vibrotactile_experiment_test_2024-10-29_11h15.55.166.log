@@ -1,0 +1,843 @@
+12.0397 	DEBUG 	Fullscreen settings ignored as running in pilot mode.
+12.0412 	INFO 	Loaded monitor calibration from ['2023_12_05 11:09']
+12.3184 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, autoLog=True, backendConf=UNKNOWN, backgroundFit=<method-wrapper '__getattribute__' of attributeSetter object at 0x0000017EC12036D0>, backgroundImage=<method-wrapper '__getattribute__' of attributeSetter object at 0x0000017EC1203670>, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x0000017EC12034C0>, gamma=None, gammaErrorPolicy='raise', infoMsg=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x0000017EC190BD30>, multiSample=False, name='window1', numSamples=2, pos=[320.0, 200.0], screen=0, size=array([1280,  800]), stencilBits=0, stereo=False, title='PsychoPy', units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+12.3186 	EXP 	window1: mouseVisible = True
+12.3186 	EXP 	window1: backgroundImage = ''
+12.3186 	EXP 	window1: backgroundFit = 'none'
+12.3188 	EXP 	window1: mouseVisible = True
+12.3190 	EXP 	window1: mouseVisible = True
+12.3218 	EXP 	window1: mouseVisible = True
+12.3223 	EXP 	window1: mouseVisible = True
+12.3341 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+12.3364 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+12.3384 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+12.3409 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+12.3439 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+12.3462 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+12.3485 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+12.3512 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+12.3525 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+12.3539 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+12.3561 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+12.3583 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+12.3609 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+12.3631 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+12.3650 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+12.3673 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+12.3693 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+12.3707 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+12.3723 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+12.3750 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+12.3766 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+12.3777 	DEBUG 	Uploading Texture Font fontname to graphics card
+12.3813 	DEBUG 	Upload of Texture Font fontname complete
+12.3840 	EXP 	window1: mouseVisible = True
+12.3842 	EXP 	window1: mouseVisible = True
+12.3852 	EXP 	window1: mouseVisible = True
+12.3860 	EXP 	window1: mouseVisible = True
+12.3919 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+12.3948 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+12.3970 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+12.3973 	DEBUG 	Uploading Texture Font fontname to graphics card
+12.3982 	DEBUG 	Upload of Texture Font fontname complete
+12.4009 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+12.4009 	EXP 	window1: recordFrameIntervals = False
+12.5814 	EXP 	window1: recordFrameIntervals = True
+12.7483 	WARNING 	t of last frame was 20.47ms (=1/48)
+12.7815 	WARNING 	t of last frame was 20.09ms (=1/49)
+13.0323 	WARNING 	t of last frame was 21.85ms (=1/45)
+13.0661 	WARNING 	t of last frame was 21.68ms (=1/46)
+13.1353 	WARNING 	Multiple dropped frames have occurred - I'll stop bothering you about them!
+13.3456 	EXP 	Screen (0) actual frame rate measured at 59.81Hz
+13.3456 	EXP 	window1: recordFrameIntervals = False
+13.3458 	EXP 	window1: mouseVisible = False
+13.3465 	EXP 	window1: mouseVisible = True
+13.3467 	EXP 	window1: mouseVisible = True
+13.3473 	EXP 	window1: mouseVisible = True
+13.3477 	EXP 	window1: mouseVisible = True
+13.3523 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+13.3538 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+13.3560 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+13.3586 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+13.3611 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+13.3635 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+13.3649 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+13.3670 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+13.3693 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+13.3713 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+13.3716 	DEBUG 	Uploading Texture Font fontname to graphics card
+13.3729 	DEBUG 	Upload of Texture Font fontname complete
+13.3748 	EXP 	window1: mouseVisible = True
+13.3750 	EXP 	window1: mouseVisible = True
+13.3755 	EXP 	window1: mouseVisible = True
+13.3759 	EXP 	window1: mouseVisible = True
+13.3820 	WARNING 	launchHubServer: If using the iohub mouse or eyetracker devices, fullScr should be True.
+16.1610 	INFO 	keyboard.Keyboard is using iohub backend.
+16.1610 	INFO 	keyboard.Keyboard is using iohub backend.
+16.1611 	INFO 	keyboard.Keyboard is using iohub backend.
+16.1611 	INFO 	keyboard.Keyboard is using iohub backend.
+16.1611 	EXP 	vibrotactile_experiment_test: status = STARTED
+16.1616 	EXP 	window1: mouseVisible = True
+16.2285 	EXP 	Created text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='Viberator Test', units='height', win=Window(...), wrapWidth=1)
+16.2288 	EXP 	window1: mouseVisible = True
+16.2297 	EXP 	Created text_3 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_3', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+16.2298 	EXP 	window1: mouseVisible = True
+16.2322 	EXP 	Created text_4 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_4', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='+', units='height', win=Window(...), wrapWidth=1)
+16.2322 	EXP 	window1: mouseVisible = True
+16.2339 	EXP 	Created stimulus_fixation = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='stimulus_fixation', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='+', units='height', win=Window(...), wrapWidth=1)
+16.2340 	EXP 	window1: mouseVisible = True
+16.2359 	EXP 	Created grating = GratingStim(__class__=<class 'psychopy.visual.grating.GratingStim'>, anchor='center', autoDraw=False, autoLog=True, blendmode='avg', color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, interpolate=True, mask='gauss', maskParams=None, name='grating', opacity=1.0, ori=45.0, phase=array([0., 0.]), pos=array([0., 0.]), rgbPedestal=array([0., 0., 0.]), sf=array([10., 10.]), size=array([0.5, 0.5]), tex='sin', texRes=128.0, units='height', win=Window(...))
+16.2360 	EXP 	window1: mouseVisible = True
+16.2397 	EXP 	Created text_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_2', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='+', units='height', win=Window(...), wrapWidth=1)
+16.2398 	EXP 	window1: mouseVisible = True
+16.2448 	EXP 	Created end_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='end_text', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='Run Complete!', units='height', win=Window(...), wrapWidth=1)
+0.1270 	INFO 	Keyboard events cleared
+0.1266 	EXP 	text: autoDraw = True
+2.1541 	DATA 	Mouse: Left button down, pos=(715,497)
+2.2237 	DATA 	Mouse:  Left button up, pos=(715,497)
+2.7309 	DEBUG 	Read csv file with pandas: visual_only.csv
+2.7318 	DEBUG 	Clearing unnamed columns from visual_only.csv
+2.7323 	EXP 	Imported visual_only.csv as conditions, 10 conditions, 4 params
+2.7327 	EXP 	Created sequence: random, trialTypes=10, nReps=10, seed=None
+2.7329 	EXP 	New trial (rep=0, index=0): OrderedDict([('cue_text', 'Visual Only'), ('visual_stim_position', -0.5), ('visual_stim_opacity', 0.05), ('correct_answer', 'left')])
+2.7376 	DATA 	Keypress: space
+2.7480 	EXP 	text: autoDraw = False
+2.7480 	EXP 	text_3: height = 0.05
+2.7480 	EXP 	text_3: height = 0.05
+2.7480 	EXP 	text_3: height = 0.05
+2.7480 	EXP 	text_3: text = 'Visual Only'
+2.7480 	EXP 	text_3: autoDraw = True
+2.9996 	EXP 	text_3: autoDraw = False
+2.9996 	EXP 	text_4: autoDraw = True
+4.4995 	EXP 	text_4: autoDraw = False
+4.4995 	EXP 	stimulus_fixation: autoDraw = True
+4.4995 	EXP 	grating: autoDraw = True
+4.4995 	EXP 	grating: tex = 'sin'
+4.7331 	INFO 	Keyboard events cleared
+4.7328 	EXP 	stimulus_fixation: autoDraw = False
+4.7328 	EXP 	grating: autoDraw = False
+4.7328 	EXP 	text_2: autoDraw = True
+5.1356 	DATA 	Keypress: left
+5.5187 	EXP 	New trial (rep=0, index=1): OrderedDict([('cue_text', 'Visual Only'), ('visual_stim_position', 0.5), ('visual_stim_opacity', 0.05), ('correct_answer', 'right')])
+5.5328 	EXP 	text_2: autoDraw = False
+5.5328 	EXP 	text_2: autoDraw = False
+5.5328 	EXP 	text_3: text = 'Visual Only'
+5.5328 	EXP 	text_3: autoDraw = True
+5.7827 	EXP 	text_3: autoDraw = False
+5.7827 	EXP 	text_3: autoDraw = False
+5.7827 	EXP 	text_4: autoDraw = True
+7.2829 	EXP 	text_4: autoDraw = False
+7.2829 	EXP 	text_4: autoDraw = False
+7.2829 	EXP 	stimulus_fixation: autoDraw = True
+7.2829 	EXP 	grating: autoDraw = True
+7.5330 	INFO 	Keyboard events cleared
+7.5327 	EXP 	stimulus_fixation: autoDraw = False
+7.5327 	EXP 	grating: autoDraw = False
+7.5327 	EXP 	stimulus_fixation: autoDraw = False
+7.5327 	EXP 	grating: autoDraw = False
+7.5327 	EXP 	text_2: autoDraw = True
+7.8860 	DATA 	Keypress: right
+8.3186 	EXP 	New trial (rep=0, index=2): OrderedDict([('cue_text', 'Visual Only'), ('visual_stim_position', -0.5), ('visual_stim_opacity', 0.1), ('correct_answer', 'left')])
+8.3330 	EXP 	text_2: autoDraw = False
+8.3330 	EXP 	text_2: autoDraw = False
+8.3330 	EXP 	text_3: text = 'Visual Only'
+8.3330 	EXP 	text_3: autoDraw = True
+8.5826 	EXP 	text_3: autoDraw = False
+8.5826 	EXP 	text_3: autoDraw = False
+8.5826 	EXP 	text_4: autoDraw = True
+10.0828 	EXP 	text_4: autoDraw = False
+10.0828 	EXP 	text_4: autoDraw = False
+10.0828 	EXP 	stimulus_fixation: autoDraw = True
+10.0828 	EXP 	grating: autoDraw = True
+10.3333 	INFO 	Keyboard events cleared
+10.3331 	EXP 	stimulus_fixation: autoDraw = False
+10.3331 	EXP 	grating: autoDraw = False
+10.3331 	EXP 	stimulus_fixation: autoDraw = False
+10.3331 	EXP 	grating: autoDraw = False
+10.3331 	EXP 	text_2: autoDraw = True
+10.7197 	DATA 	Keypress: left
+11.1183 	EXP 	New trial (rep=0, index=3): OrderedDict([('cue_text', 'Visual Only'), ('visual_stim_position', 0.5), ('visual_stim_opacity', 0.025), ('correct_answer', 'right')])
+11.1325 	EXP 	text_2: autoDraw = False
+11.1325 	EXP 	text_2: autoDraw = False
+11.1325 	EXP 	text_3: text = 'Visual Only'
+11.1325 	EXP 	text_3: autoDraw = True
+11.3832 	EXP 	text_3: autoDraw = False
+11.3832 	EXP 	text_4: autoDraw = True
+12.8825 	EXP 	text_4: autoDraw = False
+12.8825 	EXP 	text_4: autoDraw = False
+12.8825 	EXP 	stimulus_fixation: autoDraw = True
+12.8825 	EXP 	grating: autoDraw = True
+13.1329 	INFO 	Keyboard events cleared
+13.1326 	EXP 	stimulus_fixation: autoDraw = False
+13.1326 	EXP 	grating: autoDraw = False
+13.1326 	EXP 	stimulus_fixation: autoDraw = False
+13.1326 	EXP 	grating: autoDraw = False
+13.1326 	EXP 	text_2: autoDraw = True
+13.6225 	DATA 	Keypress: right
+13.9181 	EXP 	New trial (rep=0, index=4): OrderedDict([('cue_text', 'Visual Only'), ('visual_stim_position', -0.5), ('visual_stim_opacity', 0.01), ('correct_answer', 'left')])
+13.9335 	EXP 	text_2: autoDraw = False
+13.9335 	EXP 	text_2: autoDraw = False
+13.9335 	EXP 	text_3: text = 'Visual Only'
+13.9335 	EXP 	text_3: autoDraw = True
+14.1830 	EXP 	text_3: autoDraw = False
+14.1830 	EXP 	text_3: autoDraw = False
+14.1830 	EXP 	text_4: autoDraw = True
+15.6826 	EXP 	text_4: autoDraw = False
+15.6826 	EXP 	stimulus_fixation: autoDraw = True
+15.6826 	EXP 	grating: autoDraw = True
+15.9341 	INFO 	Keyboard events cleared
+15.9335 	EXP 	stimulus_fixation: autoDraw = False
+15.9335 	EXP 	grating: autoDraw = False
+15.9335 	EXP 	text_2: autoDraw = True
+16.3725 	DATA 	Keypress: left
+16.7189 	EXP 	New trial (rep=0, index=5): OrderedDict([('cue_text', 'Visual Only'), ('visual_stim_position', 0.5), ('visual_stim_opacity', 0.01), ('correct_answer', 'right')])
+16.7332 	EXP 	text_2: autoDraw = False
+16.7332 	EXP 	text_2: autoDraw = False
+16.7332 	EXP 	text_3: text = 'Visual Only'
+16.7332 	EXP 	text_3: autoDraw = True
+16.9831 	EXP 	text_3: autoDraw = False
+16.9831 	EXP 	text_3: autoDraw = False
+16.9831 	EXP 	text_4: autoDraw = True
+18.4828 	EXP 	text_4: autoDraw = False
+18.4828 	EXP 	text_4: autoDraw = False
+18.4828 	EXP 	stimulus_fixation: autoDraw = True
+18.4828 	EXP 	grating: autoDraw = True
+18.7335 	INFO 	Keyboard events cleared
+18.7332 	EXP 	stimulus_fixation: autoDraw = False
+18.7332 	EXP 	grating: autoDraw = False
+18.7332 	EXP 	stimulus_fixation: autoDraw = False
+18.7332 	EXP 	grating: autoDraw = False
+18.7332 	EXP 	text_2: autoDraw = True
+19.0027 	DATA 	Keypress: right
+19.5194 	EXP 	New trial (rep=0, index=6): OrderedDict([('cue_text', 'Visual Only'), ('visual_stim_position', 0.5), ('visual_stim_opacity', 0.1), ('correct_answer', 'right')])
+19.5358 	EXP 	text_2: autoDraw = False
+19.5358 	EXP 	text_3: text = 'Visual Only'
+19.5358 	EXP 	text_3: autoDraw = True
+19.7990 	EXP 	text_3: autoDraw = False
+19.7990 	EXP 	text_4: autoDraw = True
+21.2994 	EXP 	text_4: autoDraw = False
+21.2994 	EXP 	stimulus_fixation: autoDraw = True
+21.2994 	EXP 	grating: autoDraw = True
+21.5159 	INFO 	Keyboard events cleared
+21.5156 	EXP 	stimulus_fixation: autoDraw = False
+21.5156 	EXP 	grating: autoDraw = False
+21.5156 	EXP 	text_2: autoDraw = True
+22.1219 	DATA 	Keypress: right
+22.3016 	EXP 	New trial (rep=0, index=7): OrderedDict([('cue_text', 'Visual Only'), ('visual_stim_position', 0.5), ('visual_stim_opacity', 0.075), ('correct_answer', 'right')])
+22.3163 	EXP 	text_2: autoDraw = False
+22.3163 	EXP 	text_2: autoDraw = False
+22.3163 	EXP 	text_3: text = 'Visual Only'
+22.3163 	EXP 	text_3: autoDraw = True
+22.5673 	EXP 	text_3: autoDraw = False
+22.5673 	EXP 	text_4: autoDraw = True
+24.0665 	EXP 	text_4: autoDraw = False
+24.0665 	EXP 	stimulus_fixation: autoDraw = True
+24.0665 	EXP 	grating: autoDraw = True
+24.2992 	INFO 	Keyboard events cleared
+24.2989 	EXP 	stimulus_fixation: autoDraw = False
+24.2989 	EXP 	grating: autoDraw = False
+24.2989 	EXP 	text_2: autoDraw = True
+24.6867 	DATA 	Keypress: right
+25.0857 	EXP 	New trial (rep=0, index=8): OrderedDict([('cue_text', 'Visual Only'), ('visual_stim_position', -0.5), ('visual_stim_opacity', 0.075), ('correct_answer', 'left')])
+25.0995 	EXP 	text_2: autoDraw = False
+25.0995 	EXP 	text_2: autoDraw = False
+25.0995 	EXP 	text_3: text = 'Visual Only'
+25.0995 	EXP 	text_3: autoDraw = True
+25.3495 	EXP 	text_3: autoDraw = False
+25.3495 	EXP 	text_3: autoDraw = False
+25.3495 	EXP 	text_4: autoDraw = True
+26.8524 	EXP 	text_4: autoDraw = False
+26.8524 	EXP 	text_4: autoDraw = False
+26.8524 	EXP 	stimulus_fixation: autoDraw = True
+26.8524 	EXP 	grating: autoDraw = True
+27.0993 	INFO 	Keyboard events cleared
+27.0990 	EXP 	stimulus_fixation: autoDraw = False
+27.0990 	EXP 	grating: autoDraw = False
+27.0990 	EXP 	text_2: autoDraw = True
+27.4195 	DATA 	Keypress: left
+27.8719 	EXP 	New trial (rep=0, index=9): OrderedDict([('cue_text', 'Visual Only'), ('visual_stim_position', -0.5), ('visual_stim_opacity', 0.025), ('correct_answer', 'left')])
+27.8829 	EXP 	text_2: autoDraw = False
+27.8829 	EXP 	text_3: text = 'Visual Only'
+27.8829 	EXP 	text_3: autoDraw = True
+28.1326 	EXP 	text_3: autoDraw = False
+28.1326 	EXP 	text_3: autoDraw = False
+28.1326 	EXP 	text_4: autoDraw = True
+29.6370 	EXP 	text_4: autoDraw = False
+29.6370 	EXP 	text_4: autoDraw = False
+29.6370 	EXP 	stimulus_fixation: autoDraw = True
+29.6370 	EXP 	grating: autoDraw = True
+29.8830 	INFO 	Keyboard events cleared
+29.8828 	EXP 	stimulus_fixation: autoDraw = False
+29.8828 	EXP 	grating: autoDraw = False
+29.8828 	EXP 	text_2: autoDraw = True
+30.1861 	DATA 	Keypress: left
+30.6704 	EXP 	New trial (rep=1, index=0): OrderedDict([('cue_text', 'Visual Only'), ('visual_stim_position', -0.5), ('visual_stim_opacity', 0.025), ('correct_answer', 'left')])
+30.6845 	EXP 	text_2: autoDraw = False
+30.6845 	EXP 	text_2: autoDraw = False
+30.6845 	EXP 	text_3: text = 'Visual Only'
+30.6845 	EXP 	text_3: autoDraw = True
+30.9493 	EXP 	text_3: autoDraw = False
+30.9493 	EXP 	text_4: autoDraw = True
+32.4499 	EXP 	text_4: autoDraw = False
+32.4499 	EXP 	stimulus_fixation: autoDraw = True
+32.4499 	EXP 	grating: autoDraw = True
+32.6835 	INFO 	Keyboard events cleared
+32.6833 	EXP 	stimulus_fixation: autoDraw = False
+32.6833 	EXP 	grating: autoDraw = False
+32.6833 	EXP 	text_2: autoDraw = True
+32.9716 	DATA 	Keypress: left
+33.4688 	EXP 	New trial (rep=1, index=1): OrderedDict([('cue_text', 'Visual Only'), ('visual_stim_position', 0.5), ('visual_stim_opacity', 0.05), ('correct_answer', 'right')])
+33.4824 	EXP 	text_2: autoDraw = False
+33.4824 	EXP 	text_2: autoDraw = False
+33.4824 	EXP 	text_3: text = 'Visual Only'
+33.4824 	EXP 	text_3: autoDraw = True
+33.7332 	EXP 	text_3: autoDraw = False
+33.7332 	EXP 	text_3: autoDraw = False
+33.7332 	EXP 	text_4: autoDraw = True
+35.2332 	EXP 	text_4: autoDraw = False
+35.2332 	EXP 	text_4: autoDraw = False
+35.2332 	EXP 	stimulus_fixation: autoDraw = True
+35.2332 	EXP 	grating: autoDraw = True
+35.4825 	INFO 	Keyboard events cleared
+35.4823 	EXP 	stimulus_fixation: autoDraw = False
+35.4823 	EXP 	grating: autoDraw = False
+35.4823 	EXP 	stimulus_fixation: autoDraw = False
+35.4823 	EXP 	grating: autoDraw = False
+35.4823 	EXP 	text_2: autoDraw = True
+35.6903 	DATA 	Keypress: right
+36.2686 	EXP 	New trial (rep=1, index=2): OrderedDict([('cue_text', 'Visual Only'), ('visual_stim_position', 0.5), ('visual_stim_opacity', 0.01), ('correct_answer', 'right')])
+36.2825 	EXP 	text_2: autoDraw = False
+36.2825 	EXP 	text_3: text = 'Visual Only'
+36.2825 	EXP 	text_3: autoDraw = True
+36.5330 	EXP 	text_3: autoDraw = False
+36.5330 	EXP 	text_4: autoDraw = True
+38.0337 	EXP 	text_4: autoDraw = False
+38.0337 	EXP 	text_4: autoDraw = False
+38.0337 	EXP 	stimulus_fixation: autoDraw = True
+38.0337 	EXP 	grating: autoDraw = True
+38.2831 	INFO 	Keyboard events cleared
+38.2828 	EXP 	stimulus_fixation: autoDraw = False
+38.2828 	EXP 	grating: autoDraw = False
+38.2828 	EXP 	text_2: autoDraw = True
+38.4687 	DATA 	Keypress: right
+39.0683 	EXP 	New trial (rep=1, index=3): OrderedDict([('cue_text', 'Visual Only'), ('visual_stim_position', 0.5), ('visual_stim_opacity', 0.075), ('correct_answer', 'right')])
+39.0852 	EXP 	text_2: autoDraw = False
+39.0852 	EXP 	text_3: text = 'Visual Only'
+39.0852 	EXP 	text_3: autoDraw = True
+39.3326 	EXP 	text_3: autoDraw = False
+39.3326 	EXP 	text_4: autoDraw = True
+40.8354 	EXP 	text_4: autoDraw = False
+40.8354 	EXP 	stimulus_fixation: autoDraw = True
+40.8354 	EXP 	grating: autoDraw = True
+41.0874 	INFO 	Keyboard events cleared
+41.0871 	EXP 	stimulus_fixation: autoDraw = False
+41.0871 	EXP 	grating: autoDraw = False
+41.0871 	EXP 	text_2: autoDraw = True
+41.3399 	DATA 	Keypress: right
+41.8685 	EXP 	New trial (rep=1, index=4): OrderedDict([('cue_text', 'Visual Only'), ('visual_stim_position', 0.5), ('visual_stim_opacity', 0.025), ('correct_answer', 'right')])
+41.8830 	EXP 	text_2: autoDraw = False
+41.8830 	EXP 	text_3: text = 'Visual Only'
+41.8830 	EXP 	text_3: autoDraw = True
+42.1326 	EXP 	text_3: autoDraw = False
+42.1326 	EXP 	text_4: autoDraw = True
+43.6340 	EXP 	text_4: autoDraw = False
+43.6340 	EXP 	stimulus_fixation: autoDraw = True
+43.6340 	EXP 	grating: autoDraw = True
+43.8830 	INFO 	Keyboard events cleared
+43.8827 	EXP 	stimulus_fixation: autoDraw = False
+43.8827 	EXP 	grating: autoDraw = False
+43.8827 	EXP 	text_2: autoDraw = True
+44.1530 	DATA 	Keypress: right
+44.6539 	EXP 	New trial (rep=1, index=5): OrderedDict([('cue_text', 'Visual Only'), ('visual_stim_position', 0.5), ('visual_stim_opacity', 0.1), ('correct_answer', 'right')])
+44.6678 	EXP 	text_2: autoDraw = False
+44.6678 	EXP 	text_3: text = 'Visual Only'
+44.6678 	EXP 	text_3: autoDraw = True
+44.9329 	EXP 	text_3: autoDraw = False
+44.9329 	EXP 	text_4: autoDraw = True
+46.4333 	EXP 	text_4: autoDraw = False
+46.4333 	EXP 	stimulus_fixation: autoDraw = True
+46.4333 	EXP 	grating: autoDraw = True
+46.6680 	INFO 	Keyboard events cleared
+46.6674 	EXP 	stimulus_fixation: autoDraw = False
+46.6674 	EXP 	grating: autoDraw = False
+46.6674 	EXP 	text_2: autoDraw = True
+46.9029 	DATA 	Keypress: right
+47.4524 	EXP 	New trial (rep=1, index=6): OrderedDict([('cue_text', 'Visual Only'), ('visual_stim_position', -0.5), ('visual_stim_opacity', 0.075), ('correct_answer', 'left')])
+47.4688 	EXP 	text_2: autoDraw = False
+47.4688 	EXP 	text_3: text = 'Visual Only'
+47.4688 	EXP 	text_3: autoDraw = True
+47.7326 	EXP 	text_3: autoDraw = False
+47.7326 	EXP 	text_4: autoDraw = True
+49.2327 	EXP 	text_4: autoDraw = False
+49.2327 	EXP 	stimulus_fixation: autoDraw = True
+49.2327 	EXP 	grating: autoDraw = True
+49.4660 	INFO 	Keyboard events cleared
+49.4657 	EXP 	stimulus_fixation: autoDraw = False
+49.4657 	EXP 	grating: autoDraw = False
+49.4657 	EXP 	text_2: autoDraw = True
+49.7555 	DATA 	Keypress: left
+50.2517 	EXP 	New trial (rep=1, index=7): OrderedDict([('cue_text', 'Visual Only'), ('visual_stim_position', -0.5), ('visual_stim_opacity', 0.1), ('correct_answer', 'left')])
+50.2656 	EXP 	text_2: autoDraw = False
+50.2656 	EXP 	text_2: autoDraw = False
+50.2656 	EXP 	text_3: text = 'Visual Only'
+50.2656 	EXP 	text_3: autoDraw = True
+50.5162 	EXP 	text_3: autoDraw = False
+50.5162 	EXP 	text_3: autoDraw = False
+50.5162 	EXP 	text_4: autoDraw = True
+52.0162 	EXP 	text_4: autoDraw = False
+52.0162 	EXP 	text_4: autoDraw = False
+52.0162 	EXP 	stimulus_fixation: autoDraw = True
+52.0162 	EXP 	grating: autoDraw = True
+52.2665 	INFO 	Keyboard events cleared
+52.2662 	EXP 	stimulus_fixation: autoDraw = False
+52.2662 	EXP 	grating: autoDraw = False
+52.2662 	EXP 	stimulus_fixation: autoDraw = False
+52.2662 	EXP 	grating: autoDraw = False
+52.2662 	EXP 	text_2: autoDraw = True
+52.4530 	DATA 	Keypress: left
+53.0516 	EXP 	New trial (rep=1, index=8): OrderedDict([('cue_text', 'Visual Only'), ('visual_stim_position', -0.5), ('visual_stim_opacity', 0.01), ('correct_answer', 'left')])
+53.0660 	EXP 	text_2: autoDraw = False
+53.0660 	EXP 	text_2: autoDraw = False
+53.0660 	EXP 	text_3: text = 'Visual Only'
+53.0660 	EXP 	text_3: autoDraw = True
+53.3158 	EXP 	text_3: autoDraw = False
+53.3158 	EXP 	text_4: autoDraw = True
+54.8210 	EXP 	text_4: autoDraw = False
+54.8210 	EXP 	stimulus_fixation: autoDraw = True
+54.8210 	EXP 	grating: autoDraw = True
+55.0664 	INFO 	Keyboard events cleared
+55.0661 	EXP 	stimulus_fixation: autoDraw = False
+55.0661 	EXP 	grating: autoDraw = False
+55.0661 	EXP 	text_2: autoDraw = True
+55.3065 	DATA 	Keypress: left
+55.8519 	EXP 	New trial (rep=1, index=9): OrderedDict([('cue_text', 'Visual Only'), ('visual_stim_position', -0.5), ('visual_stim_opacity', 0.05), ('correct_answer', 'left')])
+55.8661 	EXP 	text_2: autoDraw = False
+55.8661 	EXP 	text_2: autoDraw = False
+55.8661 	EXP 	text_3: text = 'Visual Only'
+55.8661 	EXP 	text_3: autoDraw = True
+56.1170 	EXP 	text_3: autoDraw = False
+56.1170 	EXP 	text_4: autoDraw = True
+57.6214 	EXP 	text_4: autoDraw = False
+57.6214 	EXP 	text_4: autoDraw = False
+57.6214 	EXP 	stimulus_fixation: autoDraw = True
+57.6214 	EXP 	grating: autoDraw = True
+57.8665 	INFO 	Keyboard events cleared
+57.8661 	EXP 	stimulus_fixation: autoDraw = False
+57.8661 	EXP 	grating: autoDraw = False
+57.8661 	EXP 	text_2: autoDraw = True
+58.0361 	DATA 	Keypress: left
+58.6536 	EXP 	New trial (rep=2, index=0): OrderedDict([('cue_text', 'Visual Only'), ('visual_stim_position', -0.5), ('visual_stim_opacity', 0.025), ('correct_answer', 'left')])
+58.6675 	EXP 	text_2: autoDraw = False
+58.6675 	EXP 	text_3: text = 'Visual Only'
+58.6675 	EXP 	text_3: autoDraw = True
+58.9160 	EXP 	text_3: autoDraw = False
+58.9160 	EXP 	text_4: autoDraw = True
+60.4159 	EXP 	text_4: autoDraw = False
+60.4159 	EXP 	text_4: autoDraw = False
+60.4159 	EXP 	stimulus_fixation: autoDraw = True
+60.4159 	EXP 	grating: autoDraw = True
+60.6514 	INFO 	Keyboard events cleared
+60.6507 	EXP 	stimulus_fixation: autoDraw = False
+60.6507 	EXP 	grating: autoDraw = False
+60.6507 	EXP 	text_2: autoDraw = True
+60.8865 	DATA 	Keypress: left
+61.4362 	EXP 	New trial (rep=2, index=1): OrderedDict([('cue_text', 'Visual Only'), ('visual_stim_position', -0.5), ('visual_stim_opacity', 0.1), ('correct_answer', 'left')])
+61.4491 	EXP 	text_2: autoDraw = False
+61.4491 	EXP 	text_3: text = 'Visual Only'
+61.4491 	EXP 	text_3: autoDraw = True
+61.6992 	EXP 	text_3: autoDraw = False
+61.6992 	EXP 	text_3: autoDraw = False
+61.6992 	EXP 	text_4: autoDraw = True
+63.1992 	EXP 	text_4: autoDraw = False
+63.1992 	EXP 	text_4: autoDraw = False
+63.1992 	EXP 	stimulus_fixation: autoDraw = True
+63.1992 	EXP 	grating: autoDraw = True
+63.4494 	INFO 	Keyboard events cleared
+63.4492 	EXP 	stimulus_fixation: autoDraw = False
+63.4492 	EXP 	grating: autoDraw = False
+63.4492 	EXP 	stimulus_fixation: autoDraw = False
+63.4492 	EXP 	grating: autoDraw = False
+63.4492 	EXP 	text_2: autoDraw = True
+63.6026 	DATA 	Keypress: left
+64.2351 	EXP 	New trial (rep=2, index=2): OrderedDict([('cue_text', 'Visual Only'), ('visual_stim_position', 0.5), ('visual_stim_opacity', 0.05), ('correct_answer', 'right')])
+64.2494 	EXP 	text_2: autoDraw = False
+64.2494 	EXP 	text_3: text = 'Visual Only'
+64.2494 	EXP 	text_3: autoDraw = True
+64.4993 	EXP 	text_3: autoDraw = False
+64.4993 	EXP 	text_3: autoDraw = False
+64.4993 	EXP 	text_4: autoDraw = True
+65.9994 	EXP 	text_4: autoDraw = False
+65.9994 	EXP 	stimulus_fixation: autoDraw = True
+65.9994 	EXP 	grating: autoDraw = True
+66.2491 	INFO 	Keyboard events cleared
+66.2488 	EXP 	stimulus_fixation: autoDraw = False
+66.2488 	EXP 	grating: autoDraw = False
+66.2488 	EXP 	text_2: autoDraw = True
+66.5030 	DATA 	Keypress: right
+67.0348 	EXP 	New trial (rep=2, index=3): OrderedDict([('cue_text', 'Visual Only'), ('visual_stim_position', 0.5), ('visual_stim_opacity', 0.075), ('correct_answer', 'right')])
+67.0492 	EXP 	text_2: autoDraw = False
+67.0492 	EXP 	text_2: autoDraw = False
+67.0492 	EXP 	text_3: text = 'Visual Only'
+67.0492 	EXP 	text_3: autoDraw = True
+67.2992 	EXP 	text_3: autoDraw = False
+67.2992 	EXP 	text_3: autoDraw = False
+67.2992 	EXP 	text_4: autoDraw = True
+68.7991 	EXP 	text_4: autoDraw = False
+68.7991 	EXP 	text_4: autoDraw = False
+68.7991 	EXP 	stimulus_fixation: autoDraw = True
+68.7991 	EXP 	grating: autoDraw = True
+69.0497 	INFO 	Keyboard events cleared
+69.0494 	EXP 	stimulus_fixation: autoDraw = False
+69.0494 	EXP 	grating: autoDraw = False
+69.0494 	EXP 	stimulus_fixation: autoDraw = False
+69.0494 	EXP 	grating: autoDraw = False
+69.0494 	EXP 	text_2: autoDraw = True
+69.2693 	DATA 	Keypress: right
+69.8353 	EXP 	New trial (rep=2, index=4): OrderedDict([('cue_text', 'Visual Only'), ('visual_stim_position', -0.5), ('visual_stim_opacity', 0.075), ('correct_answer', 'left')])
+69.8492 	EXP 	text_2: autoDraw = False
+69.8492 	EXP 	text_2: autoDraw = False
+69.8492 	EXP 	text_3: text = 'Visual Only'
+69.8492 	EXP 	text_3: autoDraw = True
+70.0992 	EXP 	text_3: autoDraw = False
+70.0992 	EXP 	text_3: autoDraw = False
+70.0992 	EXP 	text_4: autoDraw = True
+71.5994 	EXP 	text_4: autoDraw = False
+71.5994 	EXP 	text_4: autoDraw = False
+71.5994 	EXP 	stimulus_fixation: autoDraw = True
+71.5994 	EXP 	grating: autoDraw = True
+71.8500 	INFO 	Keyboard events cleared
+71.8497 	EXP 	stimulus_fixation: autoDraw = False
+71.8497 	EXP 	grating: autoDraw = False
+71.8497 	EXP 	stimulus_fixation: autoDraw = False
+71.8497 	EXP 	grating: autoDraw = False
+71.8497 	EXP 	text_2: autoDraw = True
+72.0218 	DATA 	Keypress: left
+72.6232 	EXP 	New trial (rep=2, index=5): OrderedDict([('cue_text', 'Visual Only'), ('visual_stim_position', 0.5), ('visual_stim_opacity', 0.01), ('correct_answer', 'right')])
+72.6343 	EXP 	text_2: autoDraw = False
+72.6343 	EXP 	text_3: text = 'Visual Only'
+72.6343 	EXP 	text_3: autoDraw = True
+72.8995 	EXP 	text_3: autoDraw = False
+72.8995 	EXP 	text_4: autoDraw = True
+74.3999 	EXP 	text_4: autoDraw = False
+74.3999 	EXP 	stimulus_fixation: autoDraw = True
+74.3999 	EXP 	grating: autoDraw = True
+74.6347 	INFO 	Keyboard events cleared
+74.6340 	EXP 	stimulus_fixation: autoDraw = False
+74.6340 	EXP 	grating: autoDraw = False
+74.6340 	EXP 	text_2: autoDraw = True
+74.8862 	DATA 	Keypress: right
+75.4196 	EXP 	New trial (rep=2, index=6): OrderedDict([('cue_text', 'Visual Only'), ('visual_stim_position', 0.5), ('visual_stim_opacity', 0.1), ('correct_answer', 'right')])
+75.4326 	EXP 	text_2: autoDraw = False
+75.4326 	EXP 	text_2: autoDraw = False
+75.4326 	EXP 	text_3: text = 'Visual Only'
+75.4326 	EXP 	text_3: autoDraw = True
+75.6839 	EXP 	text_3: autoDraw = False
+75.6839 	EXP 	text_3: autoDraw = False
+75.6839 	EXP 	text_4: autoDraw = True
+77.1992 	EXP 	text_4: autoDraw = False
+77.1992 	EXP 	stimulus_fixation: autoDraw = True
+77.1992 	EXP 	grating: autoDraw = True
+77.4329 	INFO 	Keyboard events cleared
+77.4327 	EXP 	stimulus_fixation: autoDraw = False
+77.4327 	EXP 	grating: autoDraw = False
+77.4327 	EXP 	text_2: autoDraw = True
+77.6542 	DATA 	Keypress: right
+78.2189 	EXP 	New trial (rep=2, index=7): OrderedDict([('cue_text', 'Visual Only'), ('visual_stim_position', -0.5), ('visual_stim_opacity', 0.01), ('correct_answer', 'left')])
+78.2326 	EXP 	text_2: autoDraw = False
+78.2326 	EXP 	text_2: autoDraw = False
+78.2326 	EXP 	text_3: text = 'Visual Only'
+78.2326 	EXP 	text_3: autoDraw = True
+78.4824 	EXP 	text_3: autoDraw = False
+78.4824 	EXP 	text_3: autoDraw = False
+78.4824 	EXP 	text_4: autoDraw = True
+79.9828 	EXP 	text_4: autoDraw = False
+79.9828 	EXP 	text_4: autoDraw = False
+79.9828 	EXP 	stimulus_fixation: autoDraw = True
+79.9828 	EXP 	grating: autoDraw = True
+80.2330 	INFO 	Keyboard events cleared
+80.2325 	EXP 	stimulus_fixation: autoDraw = False
+80.2325 	EXP 	grating: autoDraw = False
+80.2325 	EXP 	stimulus_fixation: autoDraw = False
+80.2325 	EXP 	grating: autoDraw = False
+80.2325 	EXP 	text_2: autoDraw = True
+80.5021 	DATA 	Keypress: left
+81.0183 	EXP 	New trial (rep=2, index=8): OrderedDict([('cue_text', 'Visual Only'), ('visual_stim_position', 0.5), ('visual_stim_opacity', 0.025), ('correct_answer', 'right')])
+81.0324 	EXP 	text_2: autoDraw = False
+81.0324 	EXP 	text_2: autoDraw = False
+81.0324 	EXP 	text_3: text = 'Visual Only'
+81.0324 	EXP 	text_3: autoDraw = True
+81.2824 	EXP 	text_3: autoDraw = False
+81.2824 	EXP 	text_3: autoDraw = False
+81.2824 	EXP 	text_4: autoDraw = True
+82.7828 	EXP 	text_4: autoDraw = False
+82.7828 	EXP 	text_4: autoDraw = False
+82.7828 	EXP 	stimulus_fixation: autoDraw = True
+82.7828 	EXP 	grating: autoDraw = True
+83.0348 	INFO 	Keyboard events cleared
+83.0342 	EXP 	stimulus_fixation: autoDraw = False
+83.0342 	EXP 	grating: autoDraw = False
+83.0342 	EXP 	text_2: autoDraw = True
+83.2197 	DATA 	Keypress: right
+83.8187 	EXP 	New trial (rep=2, index=9): OrderedDict([('cue_text', 'Visual Only'), ('visual_stim_position', -0.5), ('visual_stim_opacity', 0.05), ('correct_answer', 'left')])
+83.8324 	EXP 	text_2: autoDraw = False
+83.8324 	EXP 	text_3: text = 'Visual Only'
+83.8324 	EXP 	text_3: autoDraw = True
+84.0824 	EXP 	text_3: autoDraw = False
+84.0824 	EXP 	text_3: autoDraw = False
+84.0824 	EXP 	text_4: autoDraw = True
+85.5825 	EXP 	text_4: autoDraw = False
+85.5825 	EXP 	text_4: autoDraw = False
+85.5825 	EXP 	stimulus_fixation: autoDraw = True
+85.5825 	EXP 	grating: autoDraw = True
+85.8354 	INFO 	Keyboard events cleared
+85.8352 	EXP 	stimulus_fixation: autoDraw = False
+85.8352 	EXP 	grating: autoDraw = False
+85.8352 	EXP 	text_2: autoDraw = True
+86.0196 	DATA 	Keypress: left
+86.6205 	EXP 	New trial (rep=3, index=0): OrderedDict([('cue_text', 'Visual Only'), ('visual_stim_position', -0.5), ('visual_stim_opacity', 0.01), ('correct_answer', 'left')])
+86.6344 	EXP 	text_2: autoDraw = False
+86.6344 	EXP 	text_3: text = 'Visual Only'
+86.6344 	EXP 	text_3: autoDraw = True
+86.9000 	EXP 	text_3: autoDraw = False
+86.9000 	EXP 	text_4: autoDraw = True
+88.3997 	EXP 	text_4: autoDraw = False
+88.3997 	EXP 	stimulus_fixation: autoDraw = True
+88.3997 	EXP 	grating: autoDraw = True
+88.6351 	INFO 	Keyboard events cleared
+88.6344 	EXP 	stimulus_fixation: autoDraw = False
+88.6344 	EXP 	grating: autoDraw = False
+88.6344 	EXP 	text_2: autoDraw = True
+88.8852 	DATA 	Keypress: left
+89.4191 	EXP 	New trial (rep=3, index=1): OrderedDict([('cue_text', 'Visual Only'), ('visual_stim_position', -0.5), ('visual_stim_opacity', 0.025), ('correct_answer', 'left')])
+89.4326 	EXP 	text_2: autoDraw = False
+89.4326 	EXP 	text_3: text = 'Visual Only'
+89.4326 	EXP 	text_3: autoDraw = True
+89.6841 	EXP 	text_3: autoDraw = False
+89.6841 	EXP 	text_4: autoDraw = True
+91.1993 	EXP 	text_4: autoDraw = False
+91.1993 	EXP 	stimulus_fixation: autoDraw = True
+91.1993 	EXP 	grating: autoDraw = True
+91.4330 	INFO 	Keyboard events cleared
+91.4327 	EXP 	stimulus_fixation: autoDraw = False
+91.4327 	EXP 	grating: autoDraw = False
+91.4327 	EXP 	text_2: autoDraw = True
+91.6741 	DATA 	Keypress: left
+92.2182 	EXP 	New trial (rep=3, index=2): OrderedDict([('cue_text', 'Visual Only'), ('visual_stim_position', 0.5), ('visual_stim_opacity', 0.075), ('correct_answer', 'right')])
+92.2322 	EXP 	text_2: autoDraw = False
+92.2322 	EXP 	text_2: autoDraw = False
+92.2322 	EXP 	text_3: text = 'Visual Only'
+92.2322 	EXP 	text_3: autoDraw = True
+92.4822 	EXP 	text_3: autoDraw = False
+92.4822 	EXP 	text_3: autoDraw = False
+92.4822 	EXP 	text_4: autoDraw = True
+93.9828 	EXP 	text_4: autoDraw = False
+93.9828 	EXP 	text_4: autoDraw = False
+93.9828 	EXP 	stimulus_fixation: autoDraw = True
+93.9828 	EXP 	grating: autoDraw = True
+94.2331 	INFO 	Keyboard events cleared
+94.2329 	EXP 	stimulus_fixation: autoDraw = False
+94.2329 	EXP 	grating: autoDraw = False
+94.2329 	EXP 	stimulus_fixation: autoDraw = False
+94.2329 	EXP 	grating: autoDraw = False
+94.2329 	EXP 	text_2: autoDraw = True
+94.4523 	DATA 	Keypress: right
+95.0188 	EXP 	New trial (rep=3, index=3): OrderedDict([('cue_text', 'Visual Only'), ('visual_stim_position', 0.5), ('visual_stim_opacity', 0.01), ('correct_answer', 'right')])
+95.0325 	EXP 	text_2: autoDraw = False
+95.0325 	EXP 	text_2: autoDraw = False
+95.0325 	EXP 	text_3: text = 'Visual Only'
+95.0325 	EXP 	text_3: autoDraw = True
+95.2823 	EXP 	text_3: autoDraw = False
+95.2823 	EXP 	text_3: autoDraw = False
+95.2823 	EXP 	text_4: autoDraw = True
+96.7829 	EXP 	text_4: autoDraw = False
+96.7829 	EXP 	text_4: autoDraw = False
+96.7829 	EXP 	stimulus_fixation: autoDraw = True
+96.7829 	EXP 	grating: autoDraw = True
+97.0334 	INFO 	Keyboard events cleared
+97.0331 	EXP 	stimulus_fixation: autoDraw = False
+97.0331 	EXP 	grating: autoDraw = False
+97.0331 	EXP 	stimulus_fixation: autoDraw = False
+97.0331 	EXP 	grating: autoDraw = False
+97.0331 	EXP 	text_2: autoDraw = True
+97.2022 	DATA 	Keypress: right
+97.8055 	EXP 	New trial (rep=3, index=4): OrderedDict([('cue_text', 'Visual Only'), ('visual_stim_position', 0.5), ('visual_stim_opacity', 0.05), ('correct_answer', 'right')])
+97.8161 	EXP 	text_2: autoDraw = False
+97.8161 	EXP 	text_3: text = 'Visual Only'
+97.8161 	EXP 	text_3: autoDraw = True
+98.0663 	EXP 	text_3: autoDraw = False
+98.0663 	EXP 	text_3: autoDraw = False
+98.0663 	EXP 	text_4: autoDraw = True
+99.5663 	EXP 	text_4: autoDraw = False
+99.5663 	EXP 	text_4: autoDraw = False
+99.5663 	EXP 	stimulus_fixation: autoDraw = True
+99.5663 	EXP 	grating: autoDraw = True
+99.8161 	INFO 	Keyboard events cleared
+99.8158 	EXP 	stimulus_fixation: autoDraw = False
+99.8158 	EXP 	grating: autoDraw = False
+99.8158 	EXP 	stimulus_fixation: autoDraw = False
+99.8158 	EXP 	grating: autoDraw = False
+99.8158 	EXP 	text_2: autoDraw = True
+99.9854 	DATA 	Keypress: right
+100.6030 	EXP 	New trial (rep=3, index=5): OrderedDict([('cue_text', 'Visual Only'), ('visual_stim_position', -0.5), ('visual_stim_opacity', 0.1), ('correct_answer', 'left')])
+100.6176 	EXP 	text_2: autoDraw = False
+100.6176 	EXP 	text_2: autoDraw = False
+100.6176 	EXP 	text_3: text = 'Visual Only'
+100.6176 	EXP 	text_3: autoDraw = True
+100.8826 	EXP 	text_3: autoDraw = False
+100.8826 	EXP 	text_4: autoDraw = True
+102.3859 	EXP 	text_4: autoDraw = False
+102.3859 	EXP 	stimulus_fixation: autoDraw = True
+102.3859 	EXP 	grating: autoDraw = True
+102.6184 	INFO 	Keyboard events cleared
+102.6178 	EXP 	stimulus_fixation: autoDraw = False
+102.6178 	EXP 	grating: autoDraw = False
+102.6178 	EXP 	text_2: autoDraw = True
+102.7888 	DATA 	Keypress: left
+103.4049 	EXP 	New trial (rep=3, index=6): OrderedDict([('cue_text', 'Visual Only'), ('visual_stim_position', -0.5), ('visual_stim_opacity', 0.05), ('correct_answer', 'left')])
+103.4165 	EXP 	text_2: autoDraw = False
+103.4165 	EXP 	text_3: text = 'Visual Only'
+103.4165 	EXP 	text_3: autoDraw = True
+103.6707 	EXP 	text_3: autoDraw = False
+103.6707 	EXP 	text_4: autoDraw = True
+105.1841 	EXP 	text_4: autoDraw = False
+105.1841 	EXP 	stimulus_fixation: autoDraw = True
+105.1841 	EXP 	grating: autoDraw = True
+105.4162 	INFO 	Keyboard events cleared
+105.4158 	EXP 	stimulus_fixation: autoDraw = False
+105.4158 	EXP 	grating: autoDraw = False
+105.4158 	EXP 	text_2: autoDraw = True
+105.6877 	DATA 	Keypress: left
+106.2022 	EXP 	New trial (rep=3, index=7): OrderedDict([('cue_text', 'Visual Only'), ('visual_stim_position', -0.5), ('visual_stim_opacity', 0.075), ('correct_answer', 'left')])
+106.2168 	EXP 	text_2: autoDraw = False
+106.2168 	EXP 	text_2: autoDraw = False
+106.2168 	EXP 	text_3: text = 'Visual Only'
+106.2168 	EXP 	text_3: autoDraw = True
+106.4662 	EXP 	text_3: autoDraw = False
+106.4662 	EXP 	text_3: autoDraw = False
+106.4662 	EXP 	text_4: autoDraw = True
+107.9657 	EXP 	text_4: autoDraw = False
+107.9657 	EXP 	text_4: autoDraw = False
+107.9657 	EXP 	stimulus_fixation: autoDraw = True
+107.9657 	EXP 	grating: autoDraw = True
+108.2192 	INFO 	Keyboard events cleared
+108.2189 	EXP 	stimulus_fixation: autoDraw = False
+108.2189 	EXP 	grating: autoDraw = False
+108.2189 	EXP 	stimulus_fixation: autoDraw = False
+108.2189 	EXP 	grating: autoDraw = False
+108.2189 	EXP 	text_2: autoDraw = True
+108.4719 	DATA 	Keypress: left
+109.0043 	EXP 	New trial (rep=3, index=8): OrderedDict([('cue_text', 'Visual Only'), ('visual_stim_position', 0.5), ('visual_stim_opacity', 0.1), ('correct_answer', 'right')])
+109.0159 	EXP 	text_2: autoDraw = False
+109.0159 	EXP 	text_3: text = 'Visual Only'
+109.0159 	EXP 	text_3: autoDraw = True
+109.2657 	EXP 	text_3: autoDraw = False
+109.2657 	EXP 	text_3: autoDraw = False
+109.2657 	EXP 	text_4: autoDraw = True
+110.7659 	EXP 	text_4: autoDraw = False
+110.7659 	EXP 	text_4: autoDraw = False
+110.7659 	EXP 	stimulus_fixation: autoDraw = True
+110.7659 	EXP 	grating: autoDraw = True
+111.0164 	INFO 	Keyboard events cleared
+111.0160 	EXP 	stimulus_fixation: autoDraw = False
+111.0160 	EXP 	grating: autoDraw = False
+111.0160 	EXP 	stimulus_fixation: autoDraw = False
+111.0160 	EXP 	grating: autoDraw = False
+111.0160 	EXP 	text_2: autoDraw = True
+111.1529 	DATA 	Keypress: right
+111.7886 	EXP 	New trial (rep=3, index=9): OrderedDict([('cue_text', 'Visual Only'), ('visual_stim_position', 0.5), ('visual_stim_opacity', 0.025), ('correct_answer', 'right')])
+111.8005 	EXP 	text_2: autoDraw = False
+111.8005 	EXP 	text_3: text = 'Visual Only'
+111.8005 	EXP 	text_3: autoDraw = True
+112.0684 	EXP 	text_3: autoDraw = False
+112.0684 	EXP 	text_4: autoDraw = True
+113.5659 	EXP 	text_4: autoDraw = False
+113.5659 	EXP 	stimulus_fixation: autoDraw = True
+113.5659 	EXP 	grating: autoDraw = True
+113.8004 	INFO 	Keyboard events cleared
+113.8001 	EXP 	stimulus_fixation: autoDraw = False
+113.8001 	EXP 	grating: autoDraw = False
+113.8001 	EXP 	text_2: autoDraw = True
+114.0356 	DATA 	Keypress: right
+114.5883 	EXP 	New trial (rep=4, index=0): OrderedDict([('cue_text', 'Visual Only'), ('visual_stim_position', -0.5), ('visual_stim_opacity', 0.01), ('correct_answer', 'left')])
+114.5993 	EXP 	text_2: autoDraw = False
+114.5993 	EXP 	text_3: text = 'Visual Only'
+114.5993 	EXP 	text_3: autoDraw = True
+114.8492 	EXP 	text_3: autoDraw = False
+114.8492 	EXP 	text_3: autoDraw = False
+114.8492 	EXP 	text_4: autoDraw = True
+116.3495 	EXP 	text_4: autoDraw = False
+116.3495 	EXP 	text_4: autoDraw = False
+116.3495 	EXP 	stimulus_fixation: autoDraw = True
+116.3495 	EXP 	grating: autoDraw = True
+116.6000 	INFO 	Keyboard events cleared
+116.5997 	EXP 	stimulus_fixation: autoDraw = False
+116.5997 	EXP 	grating: autoDraw = False
+116.5997 	EXP 	stimulus_fixation: autoDraw = False
+116.5997 	EXP 	grating: autoDraw = False
+116.5997 	EXP 	text_2: autoDraw = True
+116.7859 	DATA 	Keypress: left
+117.3713 	EXP 	New trial (rep=4, index=1): OrderedDict([('cue_text', 'Visual Only'), ('visual_stim_position', 0.5), ('visual_stim_opacity', 0.1), ('correct_answer', 'right')])
+117.3822 	EXP 	text_2: autoDraw = False
+117.3822 	EXP 	text_3: text = 'Visual Only'
+117.3822 	EXP 	text_3: autoDraw = True
+117.6338 	EXP 	text_3: autoDraw = False
+117.6338 	EXP 	text_4: autoDraw = True
+119.1492 	EXP 	text_4: autoDraw = False
+119.1492 	EXP 	stimulus_fixation: autoDraw = True
+119.1492 	EXP 	grating: autoDraw = True
+119.3858 	INFO 	Keyboard events cleared
+119.3855 	EXP 	stimulus_fixation: autoDraw = False
+119.3855 	EXP 	grating: autoDraw = False
+119.3855 	EXP 	text_2: autoDraw = True
+119.5361 	DATA 	Keypress: right
+120.1686 	EXP 	New trial (rep=4, index=2): OrderedDict([('cue_text', 'Visual Only'), ('visual_stim_position', -0.5), ('visual_stim_opacity', 0.1), ('correct_answer', 'left')])
+120.1826 	EXP 	text_2: autoDraw = False
+120.1826 	EXP 	text_3: text = 'Visual Only'
+120.1826 	EXP 	text_3: autoDraw = True
+120.4330 	EXP 	text_3: autoDraw = False
+120.4330 	EXP 	text_3: autoDraw = False
+120.4330 	EXP 	text_4: autoDraw = True
+121.9328 	EXP 	text_4: autoDraw = False
+121.9328 	EXP 	text_4: autoDraw = False
+121.9328 	EXP 	stimulus_fixation: autoDraw = True
+121.9328 	EXP 	grating: autoDraw = True
+122.1826 	INFO 	Keyboard events cleared
+122.1823 	EXP 	stimulus_fixation: autoDraw = False
+122.1823 	EXP 	grating: autoDraw = False
+122.1823 	EXP 	stimulus_fixation: autoDraw = False
+122.1823 	EXP 	grating: autoDraw = False
+122.1823 	EXP 	text_2: autoDraw = True
+122.4523 	DATA 	Keypress: left
+122.9706 	EXP 	New trial (rep=4, index=3): OrderedDict([('cue_text', 'Visual Only'), ('visual_stim_position', 0.5), ('visual_stim_opacity', 0.025), ('correct_answer', 'right')])
+122.9832 	EXP 	text_2: autoDraw = False
+122.9832 	EXP 	text_3: text = 'Visual Only'
+122.9832 	EXP 	text_3: autoDraw = True
+123.2324 	EXP 	text_3: autoDraw = False
+123.2324 	EXP 	text_3: autoDraw = False
+123.2324 	EXP 	text_4: autoDraw = True
+124.7326 	EXP 	text_4: autoDraw = False
+124.7326 	EXP 	stimulus_fixation: autoDraw = True
+124.7326 	EXP 	grating: autoDraw = True
+124.9828 	INFO 	Keyboard events cleared
+124.9825 	EXP 	stimulus_fixation: autoDraw = False
+124.9825 	EXP 	grating: autoDraw = False
+124.9825 	EXP 	stimulus_fixation: autoDraw = False
+124.9825 	EXP 	grating: autoDraw = False
+124.9825 	EXP 	text_2: autoDraw = True
+125.2023 	DATA 	Keypress: right
+125.7680 	EXP 	New trial (rep=4, index=4): OrderedDict([('cue_text', 'Visual Only'), ('visual_stim_position', -0.5), ('visual_stim_opacity', 0.025), ('correct_answer', 'left')])
+125.7824 	EXP 	text_2: autoDraw = False
+125.7824 	EXP 	text_2: autoDraw = False
+125.7824 	EXP 	text_3: text = 'Visual Only'
+125.7824 	EXP 	text_3: autoDraw = True
+126.0323 	EXP 	text_3: autoDraw = False
+126.0323 	EXP 	text_3: autoDraw = False
+126.0323 	EXP 	text_4: autoDraw = True
+126.9853 	DATA 	Keypress: escape
+127.2011 	EXP 	vibrotactile_experiment_test: status = STOPPED
+127.2157 	EXP 	text_4: autoDraw = False
+127.2174 	EXP 	vibrotactile_experiment_test: status = STOPPED
+127.2363 	INFO 	saved data to 'C:\\Users\\ingrambz\\OneDrive - University of Birmingham\\TRN Project\\Experiments\\TRN Divided Attention\\data/01_vibrotactile_experiment_test_2024-10-29_11h15.55.166.csv'
+127.2387 	INFO 	saved data to C:\Users\ingrambz\OneDrive - University of Birmingham\TRN Project\Experiments\TRN Divided Attention\data/01_vibrotactile_experiment_test_2024-10-29_11h15.55.166.psydat
+127.2659 	EXP 	window1: mouseVisible = True
+127.5883 	DEBUG 	Saving data for vibrotactile_experiment_test ExperimentHandler

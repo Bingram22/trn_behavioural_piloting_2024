@@ -1,0 +1,11 @@
+cue_text,vibration_high_freq_temporal_position,visual_stim_position,visual_stim_opacity,vibrotactile_stim_amplitude,correct_answer
+Visual,0,-0.5,1,1,left
+Visual,0,-0.5,1,1,left
+Visual,0,0.5,1,1,right
+Visual,0,0.5,1,1,right
+Vibrotactile,0,-0.5,1,1,left
+Vibrotactile,0,-0.5,1,1,left
+Vibrotactile,0,0.5,1,1,right
+Vibrotactile,0,0.5,1,1,right
+Visual Only,0,-0.5,1,1,left
+Visual Only,0,0.5,1,1,right
